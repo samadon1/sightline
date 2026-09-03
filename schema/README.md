@@ -1,0 +1,3 @@
+# Companion metadata profile schema
+
+`companion-profile-0.2.schema.json` is generated from `packages/core/src/schema.ts` with `npm run export-schema`. It describes the JSON file that sits beside an approved WebVTT track: speakers, shots with protected regions, per-cue speaker, lanes, emphasis, sound direction, word timings and delivery levels, and sound events. Every enhancement carries a `status`; only `verified` reaches a viewer. The runtime's validator (`npm run validate -- <vtt> <json>`) also checks what a JSON Schema cannot: cue ids exist in the track, text hashes match the canonical text, word indexes and timings lie inside their cues, stretched spellings collapse to the token, and reading rate.

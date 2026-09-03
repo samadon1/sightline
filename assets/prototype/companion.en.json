@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "0.1",
+  "canonicalTrack": "captions.en.vtt",
+  "speakers": {
+    "maya": {
+      "label": "MAYA",
+      "genericLabel": "WOMAN",
+      "color": "speaker-1",
+      "revealAtMs": 0
+    },
+    "daniel": {
+      "label": "DANIEL",
+      "genericLabel": "MAN",
+      "color": "speaker-2",
+      "revealAtMs": 0
+    }
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "startMs": 0,
+      "endMs": 30000
+    }
+  ],
+  "cues": {
+    "c001": {
+      "textHash": "sha256:df3d14454c868b39c8429d7527da07be9819d0c5a05bde420030dac925070459",
+      "status": "verified",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage",
+      "verifiedBy": "human"
+    },
+    "c002": {
+      "textHash": "sha256:86a7390c90487197d3d0e4f1948ed37efdd619f49b0b676b6d03120d4a93162d",
+      "status": "verified",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage",
+      "verifiedBy": "human"
+    },
+    "c003": {
+      "textHash": "sha256:3b98ffcf906e8ece2fd660afe28eab68d3e0011399deb47de4a587fe022f2e08",
+      "status": "verified",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "emphasis": [
+        {
+          "tokenIndex": 3,
+          "kind": "weight"
+        }
+      ],
+      "provenance": "human_editor; cue: author, checked against footage",
+      "verifiedBy": "human"
+    },
+    "c004": {
+      "textHash": "sha256:f196f67500589d1d0079b3136844fec9d812c127a4dc3be80125a8c2c7dd5152",
+      "status": "verified",
+      "sound": {
+        "direction": "right"
+      },
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage",
+      "verifiedBy": "human"
+    }
+  }
+}

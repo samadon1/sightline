@@ -1,0 +1,93 @@
+[seek] -> 66 ms
+[mode] standard scale=0.75 c001:bottom_center c002:bottom_center c003:bottom_center c004:bottom_center
+[cuechange] media=1262 active=c001 wall=1788306829263
+[script] standard seek0+play media=0 wall=1788306830414
+[cuechange] media=0 active=- wall=1788306830433
+[seek] -> 0 ms
+[cuechange] media=1391 active=c001 wall=1788306832041
+[cuechange] media=3647 active=- wall=1788306834297
+[cuechange] media=4150 active=c002 wall=1788306834801
+[cuechange] media=6911 active=- wall=1788306837561
+[cuechange] media=7164 active=c003 wall=1788306837815
+[script] standard pause media=8681 wall=1788306839413
+[script] standard play media=8763 wall=1788306842220
+[script] standard seek7 media=7000 wall=1788306843417
+[cuechange] media=7000 active=- wall=1788306843519
+[seek] -> 7000 ms
+[cuechange] media=7314 active=c003 wall=1788306844532
+[script] standard seek12 media=12000 wall=1788306846413
+[cuechange] media=12000 active=c004 wall=1788306846422
+[cuechange] media=12000 active=c004 wall=1788306846423
+[seek] -> 12000 ms
+[cuechange] media=12833 active=- wall=1788306847790
+[script] standard seek0 media=0 wall=1788306848414
+[seek] -> 66 ms
+[cuechange] media=1277 active=c001 wall=1788306850079
+[cuechange] media=3786 active=- wall=1788306852588
+[cuechange] media=4044 active=c002 wall=1788306852846
+[cuechange] media=7062 active=- wall=1788306855864
+[cuechange] media=7308 active=c003 wall=1788306856110
+[cuechange] media=10366 active=- wall=1788306859221
+[cuechange] media=11117 active=c004 wall=1788306859972
+[cuechange] media=12625 active=- wall=1788306861480
+[script] standard next-mode media=13558 wall=1788306862413
+[mode] speaker-aware scale=0.75 c001:lower_left c002:lower_right c003:lower_left c004:bottom_center
+[script] speaker-aware seek0+play media=0 wall=1788306862420
+[seek] -> 0 ms
+[cuechange] media=1363 active=c001 wall=1788306864021
+[cuechange] media=3826 active=- wall=1788306866545
+[cuechange] media=4066 active=c002 wall=1788306866785
+[cuechange] media=6832 active=- wall=1788306869551
+[cuechange] media=7334 active=c003 wall=1788306870053
+[script] speaker-aware pause media=8638 wall=1788306871413
+[script] speaker-aware play media=8695 wall=1788306873414
+[cuechange] media=10232 active=- wall=1788306874921
+[script] speaker-aware seek7 media=7000 wall=1788306875423
+[seek] -> 7000 ms
+[cuechange] media=7262 active=c003 wall=1788306876187
+[script] speaker-aware seek12 media=12000 wall=1788306878413
+[cuechange] media=12000 active=c004 wall=1788306878424
+[cuechange] media=12000 active=c004 wall=1788306878424
+[seek] -> 12000 ms
+[cuechange] media=12769 active=- wall=1788306879710
+[script] speaker-aware seek0 media=0 wall=1788306880495
+[seek] -> 0 ms
+[cuechange] media=1308 active=c001 wall=1788306881977
+[cuechange] media=3823 active=- wall=1788306884492
+[cuechange] media=4069 active=c002 wall=1788306884738
+[cuechange] media=6855 active=- wall=1788306887525
+[cuechange] media=7108 active=c003 wall=1788306887778
+[cuechange] media=10336 active=- wall=1788306891042
+[cuechange] media=11094 active=c004 wall=1788306891800
+[cuechange] media=12842 active=- wall=1788306893548
+[script] speaker-aware next-mode media=13710 wall=1788306894416
+[mode] detailed scale=0.75 c001:lower_left c002:lower_right c003:lower_left c004:bottom_center
+[script] detailed seek0+play media=0 wall=1788306894427
+[cuechange] media=1425 active=c001 wall=1788306896064
+[cuechange] media=3682 active=- wall=1788306898321
+[cuechange] media=4183 active=c002 wall=1788306898822
+[cuechange] media=7052 active=- wall=1788306902689
+[cuechange] media=7304 active=c003 wall=1788306902941
+[script] detailed pause media=7655 wall=1788306903416
+[script] detailed play media=7858 wall=1788306905418
+[script] detailed seek7 media=7000 wall=1788306907416
+[cuechange] media=7000 active=- wall=1788306907446
+[seek] -> 7000 ms
+[cuechange] media=7258 active=c003 wall=1788306908195
+[script] detailed seek12 media=12000 wall=1788306910416
+[cuechange] media=12000 active=c004 wall=1788306910433
+[cuechange] media=12000 active=c004 wall=1788306910433
+[seek] -> 12000 ms
+[cuechange] media=12776 active=- wall=1788306911716
+[script] detailed seek0 media=0 wall=1788306912416
+[seek] -> 0 ms
+[cuechange] media=1391 active=c001 wall=1788306913983
+[cuechange] media=3656 active=- wall=1788306916248
+[cuechange] media=4155 active=c002 wall=1788306916747
+[cuechange] media=6921 active=- wall=1788306919513
+[cuechange] media=7175 active=c003 wall=1788306919767
+[cuechange] media=10455 active=- wall=1788306923047
+[cuechange] media=11197 active=c004 wall=1788306923789
+[cuechange] media=12698 active=- wall=1788306925290
+[script] done
+[script] detailed next-mode media=13825 wall=1788306926417

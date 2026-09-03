@@ -1,0 +1,13 @@
+{
+  "name": "@sightline-wip/core",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Portable caption-runtime core: WebVTT parser with voice spans, lane model, and VTTCue setting mapper. Working name; will be renamed.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "engines": { "node": ">=22.6" },
+  "license": "MIT"
+}

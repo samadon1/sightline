@@ -1,0 +1,17 @@
+*.iml
+*.swp
+.idea
+.DS_Store
+.vscode
+.tmp
+
+dist
+build
+node_modules
+CMakeUserPresets.json
+npm-debug.log
+# Vega-patched Shaka Player build copied from AmazonAppDev/vega-video-sample (MIT-0 patches over Apache-2.0 Shaka).
+# Committed on purpose: regenerating it needs the sample's shaka-setup (10+ min Closure build). See docs/architecture.md.
+!src/w3cmedia/shakaplayer/dist/
+!src/w3cmedia/shakaplayer/dist/shaka-player.compiled.js
+!src/w3cmedia/shakaplayer/dist/shaka-player.compiled.d.ts

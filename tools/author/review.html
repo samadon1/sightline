@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Companion review</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#14161a; --panel:#1d2026; --ink:#e9e6df; --muted:#9aa0a8; --line:#2c3138; --accent:#e5e517; --ok:#3fbf6f; --warn:#e0a53a; --bad:#e05a4f; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui, sans-serif; }
+  header { display:flex; align-items:center; gap:1rem; padding:.6rem 1rem; border-bottom:1px solid var(--line); background:var(--panel); position:sticky; top:0; z-index:2; }
+  header h1 { font-size:1rem; margin:0; font-weight:600; }
+  header .sp { flex:1 }
+  button { background:#2b313a; color:var(--ink); border:1px solid var(--line); border-radius:6px; padding:.4rem .8rem; cursor:pointer; font:inherit; }
+  button.primary { background:var(--accent); color:#111; border-color:var(--accent); font-weight:600; }
+  button:disabled { opacity:.5; cursor:default }
+  main { display:grid; grid-template-columns: 1fr 1fr; gap:1rem; padding:1rem; }
+  @media (max-width: 1100px) { main { grid-template-columns:1fr } }
+  video { width:100%; background:#000; border-radius:6px; }
+  #wave { margin-top:.5rem; }
+  .cues { display:flex; flex-direction:column; gap:.5rem; max-height: calc(100vh - 120px); overflow:auto; }
+  .cue { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:.6rem .8rem; }
+  .cue.active { border-color:var(--accent); }
+  .cue .head { display:flex; gap:.6rem; align-items:center; font-size:.85rem; color:var(--muted); }
+  .cue .head b { color:var(--ink); font-family:ui-monospace, monospace; }
+  .cue .text { margin:.3rem 0 .4rem; font-size:1.05rem; }
+  .words { display:flex; flex-wrap:wrap; gap:.35rem; }
+  .w { display:inline-flex; flex-direction:column; align-items:center; border:1px solid var(--line); border-radius:6px; padding:.2rem .4rem; min-width:3.2rem; background:#171a1f; cursor:pointer; }
+  .w.verified { border-color:var(--ok); }
+  .w.proposed { border-color:var(--warn); border-style:dashed; }
+  .w.spoken { background:#2a2f14; }
+  .w .t { font-weight:600 }
+  .w small { color:var(--muted); font-family:ui-monospace, monospace; font-size:.7rem }
+  .w .lv { display:flex; gap:.2rem; margin-top:.15rem }
+  .w .lv span { font-size:.65rem; padding:0 .25rem; border-radius:3px; background:#2b313a }
+  .row { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; font-size:.85rem; margin-top:.3rem; }
+  select, input[type=text], input[type=number] { background:#111317; color:var(--ink); border:1px solid var(--line); border-radius:4px; padding:.15rem .3rem; font:inherit; font-size:.85rem; }
+  input[type=number] { width:5.5rem }
+  .status { color:var(--muted); font-size:.85rem }
+  .legend { color:var(--muted); font-size:.8rem; padding:0 1rem 1rem; }
+  kbd { background:#2b313a; border-radius:3px; padding:0 .3rem; font-family:ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Companion review · <span id="sceneName"></span></h1>
+  <span class="status" id="status">loading…</span>
+  <span class="sp"></span>
+  <button id="verifyAll">Verify all timed words in this cue</button>
+  <button id="revalidate">Re-run levels check</button>
+  <button class="primary" id="save" disabled>Save companion.en.json</button>
+</header>
+<main>
+  <section>
+    <video id="video" controls preload="auto"></video>
+    <div id="wave"></div>
+    <p class="legend"><strong>Caption with Intention colour rules (2.1):</strong> main characters take the six main colours, supporting characters the twelve shades between them, minor characters a pastel; put the hero and the antagonist on opposite sides of the wheel and keep any pair as far apart as possible; for black-and-white or period films consider colour off and animation only (3.1). <code>propose.py --assign-colours</code> applies this by cue count; change it here when the story says otherwise.</p>
+    <p class="legend">Space plays/pauses. Click a word to jump to it. <kbd>V</kbd> toggles verified on the word under the playhead. Solid green = verified, dashed amber = proposed. Levels: L loudness (−1…2 → 3/5/8/12% of screen height), P pitch (−1 low / 0 / 1 high), C capitals, S stretch. Nothing here changes the caption text; the hash still covers the WebVTT file.</p>
+  </section>
+  <section class="cues" id="cues"></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/7.8.6/wavesurfer.min.js"></script>
+<script>
+(async function () {
+  const $ = (s) => document.querySelector(s);
+  const status = (m) => { $('#status').textContent = m; };
+  const scene = await (await fetch('/scene.json')).json();
+  $('#sceneName').textContent = scene.dir;
+  const vttText = await (await fetch('/' + scene.vtt)).text();
+  const companion = scene.companion ? await (await fetch('/' + scene.companion)).json() : { schemaVersion: '0.2', canonicalTrack: 'captions.en.vtt', speakers: {}, cues: {} };
+  companion.schemaVersion = '0.2';
+  const video = $('#video'); video.src = '/' + scene.media;
+
+  // Minimal WebVTT parse: id line, timing line, payload; visible tokens split on whitespace after tag strip.
+  const cues = [];
+  const lines = vttText.split(/\r?\n/);
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^(?:(\d+):)?(\d\d):(\d\d)\.(\d{3})\s+-->\s+(?:(\d+):)?(\d\d):(\d\d)\.(\d{3})/);
+    if (!m) continue;
+    const id = i > 0 && lines[i-1].trim() && !lines[i-1].includes('-->') ? lines[i-1].trim() : null;
+    const t = (h, mi, s, ms) => ((+(h||0))*3600 + (+mi)*60 + (+s))*1000 + (+ms);
+    const start = t(m[1], m[2], m[3], m[4]), end = t(m[5], m[6], m[7], m[8]);
+    const payload = []; let j = i + 1; while (j < lines.length && lines[j].trim()) payload.push(lines[j++]);
+    const raw = payload.join('\n');
+    const plain = raw.replace(/<[^>]+>/g, '').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+    if (id) cues.push({ id, start, end, raw, plain, tokens: plain.trim().split(/\s+/).filter(Boolean) });
+  }
+
+  let dirty = false; const markDirty = () => { dirty = true; $('#save').disabled = false; };
+  const meta = (c) => (companion.cues[c.id] = companion.cues[c.id] || { textHash: '', status: 'proposed' });
+  const wordsOf = (c) => (meta(c).words = meta(c).words || []);
+
+  const ws = WaveSurfer.create({ container: '#wave', media: video, height: 64, waveColor: '#4a5160', progressColor: '#e5e517', cursorColor: '#fff' });
+
+  function render() {
+    const root = $('#cues'); root.innerHTML = '';
+    for (const c of cues) {
+      const m = meta(c);
+      const el = document.createElement('div'); el.className = 'cue'; el.dataset.id = c.id;
+      const spk = m.speakers ? m.speakers.join('+') : (m.speaker || '—');
+      const sp = m.speakerProposal || {};
+      const prop = [sp.cluster ? `voice ${sp.cluster}→${sp.speaker || '?'} ${Math.round((sp.confidence||0)*100)}%${sp.agreesWithTrack === false ? ' ≠ track' : ''}` : null,
+                    sp.face ? (sp.face.offCamera ? 'face: off camera' : `face ${sp.face.identity} ${Math.round((sp.face.confidence||0)*100)}%`) : null].filter(Boolean).join(' · ');
+      el.innerHTML = `<div class="head"><b>${c.id}</b> <span>${fmt(c.start)} → ${fmt(c.end)}</span> <span>speaker: ${spk}</span>${prop ? `<span style="color:${sp.agreesWithTrack === false ? 'var(--bad)' : 'var(--muted)'}">${prop}</span>` : ''}
+        <label>speaker <select data-k="speaker"><option value="">—</option>${Object.keys(companion.speakers||{}).map((id) => `<option ${m.speaker===id?'selected':''} value="${id}">${id}</option>`).join('')}</select></label>
+        <label>cue status <select data-k="status"><option ${m.status==='verified'?'selected':''}>verified</option><option ${m.status==='proposed'?'selected':''}>proposed</option><option ${m.status==='rejected'?'selected':''}>rejected</option></select></label></div>
+        <div class="text">${escape(c.plain).replace(/\n/g,'<br>')}</div><div class="words"></div>
+        <div class="row">delivery: loud <select data-d="loud">${opts([-1,0,1,2], m.delivery?.loud ?? 0)}</select> pace <select data-d="pace">${opts([-1,0,1], m.delivery?.pace ?? 0)}</select>
+        manner <input type="text" data-d="manner" placeholder="e.g. whispers" value="${escape(m.delivery?.manner || '')}"> status <select data-d="status"><option ${(m.delivery?.status||'proposed')==='verified'?'selected':''}>verified</option><option ${(m.delivery?.status||'proposed')==='proposed'?'selected':''}>proposed</option></select></div>`;
+      const wl = el.querySelector('.words');
+      const byIdx = new Map(wordsOf(c).map((w) => [w.i, w]));
+      c.tokens.forEach((tok, i) => {
+        const w = byIdx.get(i);
+        const d = document.createElement('div');
+        d.className = 'w ' + (w ? (w.status === 'verified' ? 'verified' : 'proposed') : '');
+        d.dataset.i = i;
+        d.innerHTML = `<span class="t">${escape(w?.stretch || tok)}${w?.caps ? ' ⇧' : ''}</span><small>${w ? (w.startMs/1000).toFixed(2)+'–'+(w.endMs/1000).toFixed(2) : 'untimed'}</small>
+          <div class="lv">${w ? `<span>L${w.loud ?? 0}</span><span>P${w.pitch ?? 0}</span>` : ''}</div>`;
+        d.title = w ? 'click: seek · V: toggle verified · double-click: edit levels' : 'no timing; double-click to add one at the playhead';
+        d.addEventListener('click', () => { if (w) { video.currentTime = w.startMs / 1000; } });
+        d.addEventListener('dblclick', (ev) => { ev.preventDefault(); editWord(c, i, tok); });
+        wl.appendChild(d);
+      });
+      el.querySelector('[data-k=status]').addEventListener('change', (e) => { m.status = e.target.value; if (m.status === 'verified') m.verifiedBy = 'human'; else delete m.verifiedBy; markDirty(); });
+      el.querySelector('[data-k=speaker]').addEventListener('change', (e) => { if (e.target.value) m.speaker = e.target.value; else delete m.speaker; markDirty(); });
+      el.querySelectorAll('[data-d]').forEach((inp) => inp.addEventListener('change', () => {
+        m.delivery = m.delivery || {};
+        const k = inp.dataset.d; const v = inp.value;
+        if (k === 'manner') { if (v.trim()) m.delivery.manner = v.trim(); else delete m.delivery.manner; }
+        else if (k === 'status') { m.delivery.status = v; if (v === 'verified') m.delivery.verifiedBy = 'human'; else delete m.delivery.verifiedBy; } else m.delivery[k] = +v;
+        markDirty();
+      }));
+      root.appendChild(el);
+    }
+  }
+  function editWord(c, i, tok) {
+    const list = wordsOf(c); let w = list.find((x) => x.i === i);
+    if (!w) { const t = Math.round(video.currentTime * 1000); w = { i, startMs: t, endMs: t + 250, status: 'proposed' }; list.push(w); list.sort((a, b) => a.i - b.i); }
+    const s = prompt(`Word "${tok}" (${c.id})\nstartMs,endMs,loud(-1..2),pitch(-1..1),caps(0/1),stretch(or -)`, `${w.startMs},${w.endMs},${w.loud ?? 0},${w.pitch ?? 0},${w.caps ? 1 : 0},${w.stretch || '-'}`);
+    if (s === null) return;
+    const [a, b, l, p, caps, st] = s.split(',').map((x) => x.trim());
+    w.startMs = +a; w.endMs = +b; w.loud = +l; w.pitch = +p; if (+caps) w.caps = true; else delete w.caps; if (st && st !== '-') w.stretch = st; else delete w.stretch;
+    w.status = 'verified'; w.verifiedBy = 'human'; markDirty(); render();
+  }
+  const fmt = (ms) => { const s = ms / 1000; return `${Math.floor(s/60)}:${(s%60).toFixed(3).padStart(6,'0')}`; };
+  const escape = (s) => s.replace(/[&<>"]/g, (ch) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+  const opts = (vals, cur) => vals.map((v) => `<option ${v===cur?'selected':''}>${v}</option>`).join('');
+
+  video.addEventListener('timeupdate', () => {
+    const t = video.currentTime * 1000;
+    document.querySelectorAll('.cue').forEach((el) => {
+      const c = cues.find((x) => x.id === el.dataset.id); const on = c.start <= t && t < c.end;
+      el.classList.toggle('active', on);
+      if (on) { el.querySelectorAll('.w').forEach((d) => { const w = wordsOf(c).find((x) => x.i === +d.dataset.i); d.classList.toggle('spoken', !!w && w.startMs <= t); }); if (!el.dataset.scrolled) { el.scrollIntoView({ block: 'nearest' }); } }
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+    if (e.code === 'Space') { e.preventDefault(); video.paused ? video.play() : video.pause(); }
+    if (e.key === 'v' || e.key === 'V') {
+      const t = video.currentTime * 1000; const c = cues.find((x) => x.start <= t && t < x.end); if (!c) return;
+      const w = wordsOf(c).filter((x) => x.startMs <= t).pop(); if (!w) return;
+      w.status = w.status === 'verified' ? 'proposed' : 'verified'; if (w.status === 'verified') w.verifiedBy = 'human'; else delete w.verifiedBy; markDirty(); render();
+    }
+  });
+  $('#verifyAll').addEventListener('click', () => {
+    const t = video.currentTime * 1000; const c = cues.find((x) => x.start <= t && t < x.end) || cues[0];
+    wordsOf(c).forEach((w) => { w.status = 'verified'; w.verifiedBy = 'human'; }); markDirty(); render();
+  });
+  $('#revalidate').addEventListener('click', () => {
+    let n = 0; for (const c of cues) for (const w of wordsOf(c)) { if (w.startMs < c.start - 50 || w.endMs > c.end + 50 || w.startMs > w.endMs) { w.status = 'proposed'; n++; } }
+    status(n ? `${n} word(s) outside their cue set back to proposed` : 'all word timings inside their cues'); if (n) { markDirty(); render(); }
+  });
+  $('#save').addEventListener('click', async () => {
+    const r = await fetch('/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(companion) });
+    if (r.ok) { dirty = false; $('#save').disabled = true; status('saved companion.en.json (previous copy in companion.en.json.bak); run npm run validate before bundling'); } else status('save failed');
+  });
+  window.addEventListener('beforeunload', (e) => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+  render(); status(`${cues.length} cues, ${Object.values(companion.cues).reduce((n, m) => n + (m.words?.length || 0), 0)} timed words`);
+})();
+</script>
+</body>
+</html>

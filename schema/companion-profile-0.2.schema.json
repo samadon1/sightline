@@ -1,0 +1,457 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sightline.invalid/schema/companion-profile-0.2.schema.json",
+  "title": "WebVTT companion metadata profile (experimental) v0.2",
+  "type": "object",
+  "required": [
+    "schemaVersion"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "enum": [
+        "0.1",
+        "0.2"
+      ]
+    },
+    "canonicalTrack": {
+      "type": "string"
+    },
+    "speakers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "label"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "genericLabel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "color": {
+            "type": "string",
+            "enum": [
+              "speaker-1",
+              "speaker-2",
+              "speaker-3",
+              "speaker-4",
+              "speaker-5",
+              "speaker-6",
+              "support-1",
+              "support-2",
+              "support-3",
+              "support-4",
+              "support-5",
+              "support-6",
+              "support-7",
+              "support-8",
+              "support-9",
+              "support-10",
+              "support-11",
+              "support-12",
+              "neutral"
+            ]
+          },
+          "revealAtMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "offScreen": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "startMs",
+          "endMs"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "proposed",
+              "rejected"
+            ]
+          },
+          "protected": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "x",
+                "y",
+                "w",
+                "h"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "x": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "w": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "h": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cues": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "textHash",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "textHash": {
+            "type": "string",
+            "pattern": "^(sha256:)?[0-9a-f]{64}$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "proposed",
+              "rejected"
+            ]
+          },
+          "verifiedBy": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "offScreen": {
+            "type": "boolean",
+            "description": "This cue's voice is off camera (a line over a cutaway). Italic in Detailed. Verified cues only."
+          },
+          "speakerProposal": {
+            "type": "object",
+            "description": "Authoring annotation (diarization and active-speaker proposals); the runtime ignores it."
+          },
+          "speakers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "lanes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "bottom_center",
+                "lower_left",
+                "lower_right"
+              ]
+            },
+            "minItems": 1
+          },
+          "emphasis": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "tokenIndex",
+                "kind"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "tokenIndex": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "weight",
+                    "underline"
+                  ]
+                }
+              }
+            }
+          },
+          "sound": {
+            "type": "object",
+            "required": [
+              "direction"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "direction": {
+                "type": "string",
+                "enum": [
+                  "left",
+                  "right",
+                  "center"
+                ]
+              }
+            }
+          },
+          "provenance": {
+            "type": "string"
+          },
+          "words": {
+            "description": "Schema 0.2. One entry per timed visible token; untimed tokens render plainly.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "i",
+                "startMs",
+                "endMs"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "i": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "startMs": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "endMs": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "loud": {
+                  "type": "integer",
+                  "enum": [
+                    -1,
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                "loudDb": {
+                  "type": "number",
+                  "minimum": -40,
+                  "maximum": 40
+                },
+                "pitch": {
+                  "type": "integer",
+                  "enum": [
+                    -1,
+                    0,
+                    1
+                  ]
+                },
+                "width": {
+                  "type": "integer",
+                  "enum": [
+                    -1,
+                    0,
+                    1
+                  ]
+                },
+                "caps": {
+                  "type": "boolean"
+                },
+                "stretch": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "verified",
+                    "proposed",
+                    "rejected"
+                  ]
+                },
+                "verifiedBy": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Authoring annotation: the aligner's confidence for this word. The runtime ignores it."
+                },
+                "interpolated": {
+                  "type": "boolean",
+                  "description": "Authoring annotation: the timing was placed between verified neighbours, not measured; such a word carries no measurements."
+                }
+              }
+            }
+          },
+          "delivery": {
+            "description": "Schema 0.2. Cue-level delivery; manner is human-authored.",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "loud": {
+                "type": "integer",
+                "enum": [
+                  -1,
+                  0,
+                  1,
+                  2
+                ]
+              },
+              "loudDb": {
+                "type": "number",
+                "minimum": -40,
+                "maximum": 40
+              },
+              "width": {
+                "type": "integer",
+                "enum": [
+                  -1,
+                  0,
+                  1
+                ]
+              },
+              "pace": {
+                "type": "integer",
+                "enum": [
+                  -1,
+                  0,
+                  1
+                ]
+              },
+              "manner": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "verified",
+                  "proposed",
+                  "rejected"
+                ]
+              },
+              "verifiedBy": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "faceIdentities": {
+      "description": "Authoring annotation from active speaker detection; the runtime ignores it.",
+      "type": "object"
+    },
+    "sounds": {
+      "description": "Schema 0.2. Sound events beside the canonical track, Detailed mode only.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "startMs",
+          "endMs",
+          "label",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "left",
+              "right",
+              "center"
+            ]
+          },
+          "directionProvenance": {
+            "type": "string",
+            "description": "Authoring annotation: how the direction was measured."
+          },
+          "loudDb": {
+            "type": "number",
+            "minimum": -40,
+            "maximum": 40,
+            "description": "Measured level relative to the scene's speech; sizes the label."
+          },
+          "offScreen": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "verified",
+              "proposed",
+              "rejected"
+            ]
+          },
+          "provenance": {
+            "type": "string"
+          },
+          "verifiedBy": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

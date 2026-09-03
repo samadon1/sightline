@@ -1,0 +1,20 @@
+WEBVTT
+
+NOTE Prototype track for Gate 1. Four cues, two speakers, one off-screen sound.
+NOTE Speaker names are carried in <v> spans (standard WebVTT). No companion file yet.
+
+c001
+00:00:01.200 --> 00:00:03.600
+<v Maya>Did you bring it?
+
+c002
+00:00:04.000 --> 00:00:06.800
+<v Daniel>It's in the envelope.
+
+c003
+00:00:07.100 --> 00:00:10.200
+<v Maya>Don't let him see it.
+
+c004
+00:00:11.000 --> 00:00:12.600
+[glass shatters off-screen]

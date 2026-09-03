@@ -1,0 +1,107 @@
+schema-version = 1
+
+[package]
+title = "Sightline"
+version = "0.1.0"
+id = "com.sightlinewip.player"
+icon = "@image/sightline.png"
+
+[os.version]
+min = "1.2"
+target = "1.2"
+
+[needs]
+[[needs.module]]
+id = "/com.amazon.vega.os@IVega_1_2"
+
+## Media playback privileges (official vega-video-sample declares these under needs; the
+## media-player FAQ says missing permissions can leave playback never starting).
+[[needs.privilege]]
+id = "com.amazon.media.secureplayback"
+
+[[needs.privilege]]
+id = "com.amazon.privilege.security.file-sharing"
+
+[[needs.module]]
+id = "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0"
+
+[[needs.module]]
+id = "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1"
+
+[[needs.module]]
+id = "/com.amazon.kepler.keplerscript_4@IKeplerScript_0"
+
+[[needs.module]]
+id = "/com.amazon.kepler.w3cmedia_2@IW3cmedia_3"
+
+[[needs.module]]
+id = "/com.amazon.kepler.async_storage__async_storage_2@IAsyncStorage__AsyncStorage_1"
+
+
+
+
+
+[components]
+[[components.interactive]]
+id = "com.sightlinewip.player.main"
+runtime-module = "/com.amazon.kepler.runtime.react_native_kepler_4@IReactNativeKepler_0"
+launch-type = "singleton"
+categories = ["com.amazon.category.main", "com.amazon.category.kepler.media"]
+
+[processes]
+[[processes.group]]
+component-ids = ["com.sightlinewip.player.main"]
+
+## Optional capabilities (from the official vega-video-sample manifest). Media playback, remote
+## button events, and accessibility settings. The app must degrade if any is unavailable.
+[wants]
+[[wants.service]]
+id = "com.amazon.media.server"
+
+[[wants.service]]
+id = "com.amazon.mediametrics.service"
+
+[[wants.service]]
+id = "com.amazon.inputd.service"
+
+[[wants.service]]
+id = "com.amazon.media.playersession.service"
+
+[[wants.service]]
+id = "com.amazon.mediabuffer.service"
+
+[[wants.service]]
+id = "com.amazon.mediatransform.service"
+
+[[wants.privilege]]
+id = "com.amazon.devconf.privilege.accessibility"
+
+[[wants.service]]
+id = "com.amazon.gipc.uuid.*"
+
+[[wants.service]]
+id = "com.amazon.audio.stream"
+
+[[wants.service]]
+id = "com.amazon.audio.control"
+
+[[wants.service]]
+id = "com.amazon.audio.system"
+
+[[wants.service]]
+id = "com.amazon.network.service"
+
+[[wants.service]]
+id = "com.amazon.drm.key"
+
+[[wants.service]]
+id = "com.amazon.drm.crypto"
+
+[[wants.service]]
+id = "com.amazon.inputmethod.service"
+
+[[wants.service]]
+id = "com.amazon.kepler.pcon.service.main"
+
+[[wants.service]]
+id = "com.amazon.tv.developer.dataservice"

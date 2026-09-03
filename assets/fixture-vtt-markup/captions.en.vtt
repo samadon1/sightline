@@ -1,0 +1,20 @@
+WEBVTT
+
+NOTE Fixture: does the native Fire TV renderer honour WebVTT cue-text markup?
+NOTE c001 timestamp tags (karaoke), c002 class spans + bold + italic, c003 voice span + underline, c004 ruby-free plain control.
+
+c001
+00:00:01.200 --> 00:00:04.600
+Did <00:00:01.900>you <00:00:02.500>bring <00:00:03.200>it?
+
+c002
+00:00:05.000 --> 00:00:08.000
+<c.yellow>Yellow class</c> <b>bold</b> <i>italic</i> plain
+
+c003
+00:00:08.500 --> 00:00:11.500
+<v Maya>Voice span <u>underlined</u> end.
+
+c004
+00:00:12.000 --> 00:00:14.500
+Plain control cue.

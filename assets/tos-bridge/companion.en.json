@@ -1,0 +1,1514 @@
+{
+  "schemaVersion": "0.2",
+  "canonicalTrack": "captions.en.vtt",
+  "speakers": {
+    "celia": {
+      "label": "CELIA",
+      "genericLabel": "WOMAN",
+      "color": "speaker-1",
+      "revealAtMs": 0
+    },
+    "thom": {
+      "label": "THOM",
+      "genericLabel": "MAN",
+      "color": "speaker-2",
+      "revealAtMs": 0
+    },
+    "technician": {
+      "label": "TECHNICIAN",
+      "genericLabel": "VOICE",
+      "color": "speaker-3",
+      "revealAtMs": 0
+    },
+    "crew": {
+      "label": "CREW",
+      "genericLabel": "VOICE",
+      "color": "neutral",
+      "revealAtMs": 0
+    }
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "startMs": 0,
+      "endMs": 7000,
+      "status": "proposed"
+    },
+    {
+      "id": "s02",
+      "startMs": 7000,
+      "endMs": 10000,
+      "protected": [
+        {
+          "x": 0.634,
+          "y": 0.245,
+          "w": 0.052,
+          "h": 0.118,
+          "reason": "face (2 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s03",
+      "startMs": 10000,
+      "endMs": 12000,
+      "protected": [
+        {
+          "x": 0.375,
+          "y": 0.194,
+          "w": 0.299,
+          "h": 0.183,
+          "reason": "face (4 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s04",
+      "startMs": 12000,
+      "endMs": 14000,
+      "protected": [
+        {
+          "x": 0.311,
+          "y": 0.216,
+          "w": 0.072,
+          "h": 0.12,
+          "reason": "face (1 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s05",
+      "startMs": 14000,
+      "endMs": 16000,
+      "status": "proposed"
+    },
+    {
+      "id": "s06",
+      "startMs": 16000,
+      "endMs": 17000,
+      "protected": [
+        {
+          "x": 0.297,
+          "y": 0.24,
+          "w": 0.055,
+          "h": 0.13,
+          "reason": "face (2 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s07",
+      "startMs": 17000,
+      "endMs": 19000,
+      "status": "proposed"
+    },
+    {
+      "id": "s08",
+      "startMs": 19000,
+      "endMs": 20000,
+      "protected": [
+        {
+          "x": 0.31,
+          "y": 0.235,
+          "w": 0.049,
+          "h": 0.121,
+          "reason": "face (1 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s09",
+      "startMs": 20000,
+      "endMs": 21000,
+      "status": "proposed"
+    },
+    {
+      "id": "s10",
+      "startMs": 21000,
+      "endMs": 23000,
+      "protected": [
+        {
+          "x": 0.334,
+          "y": 0.242,
+          "w": 0.059,
+          "h": 0.132,
+          "reason": "face (1 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s11",
+      "startMs": 23000,
+      "endMs": 33000,
+      "status": "proposed"
+    },
+    {
+      "id": "s12",
+      "startMs": 33000,
+      "endMs": 35000,
+      "protected": [
+        {
+          "x": 0.601,
+          "y": 0.278,
+          "w": 0.131,
+          "h": 0.328,
+          "reason": "face (2 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s13",
+      "startMs": 35000,
+      "endMs": 36000,
+      "protected": [
+        {
+          "x": 0.502,
+          "y": 0.237,
+          "w": 0.182,
+          "h": 0.352,
+          "reason": "face (3 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s14",
+      "startMs": 36000,
+      "endMs": 39000,
+      "protected": [
+        {
+          "x": 0.29,
+          "y": 0.378,
+          "w": 0.07,
+          "h": 0.165,
+          "reason": "face (2 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s15",
+      "startMs": 39000,
+      "endMs": 41000,
+      "status": "proposed"
+    },
+    {
+      "id": "s16",
+      "startMs": 41000,
+      "endMs": 47000,
+      "protected": [
+        {
+          "x": 0.298,
+          "y": 0.129,
+          "w": 0.349,
+          "h": 0.552,
+          "reason": "face (1 detections)"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "s17",
+      "startMs": 47000,
+      "endMs": 48000,
+      "status": "proposed"
+    }
+  ],
+  "cues": {
+    "c001": {
+      "textHash": "sha256:ca7f71ec3a159ccc85ffdd3945f4f7b508b994edc9ad38e4ee8888ab11b6e3a6",
+      "status": "verified",
+      "speaker": "celia",
+      "lanes": [
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 5243,
+          "endMs": 5405,
+          "status": "verified",
+          "score": 0.18,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": 1
+        },
+        {
+          "i": 1,
+          "startMs": 5446,
+          "endMs": 5568,
+          "status": "verified",
+          "score": 0.72,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -1.2,
+          "width": 1
+        },
+        {
+          "i": 2,
+          "startMs": 5669,
+          "endMs": 6034,
+          "status": "verified",
+          "score": 0.86,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.5,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 6074,
+          "endMs": 6338,
+          "status": "verified",
+          "score": 0.66,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.9,
+        "width": 1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_02",
+        "confidence": 0.8,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": false,
+        "face": {
+          "identity": null,
+          "confidence": 0.0,
+          "offCamera": true,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "offScreen": true,
+      "verifiedBy": "human"
+    },
+    "c002": {
+      "textHash": "sha256:450584244d231f6098f9d5941ad1865faa04adc490ccd32030ba361fc1d176d6",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 7000,
+          "endMs": 7081,
+          "status": "verified",
+          "score": 0.0,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 7101,
+          "endMs": 7323,
+          "status": "verified",
+          "score": 0.38,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 7364,
+          "endMs": 7485,
+          "status": "verified",
+          "score": 0.99,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.8,
+          "width": 1
+        },
+        {
+          "i": 3,
+          "startMs": 7525,
+          "endMs": 7687,
+          "status": "verified",
+          "score": 0.98,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 7727,
+          "endMs": 7788,
+          "status": "verified",
+          "score": 0.98,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -6.7,
+          "width": -1
+        },
+        {
+          "i": 5,
+          "startMs": 7889,
+          "endMs": 8172,
+          "status": "verified",
+          "score": 1.0,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -1.1,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 6,
+          "startMs": 8232,
+          "endMs": 8333,
+          "status": "verified",
+          "score": 0.82,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": 1
+        },
+        {
+          "i": 7,
+          "startMs": 8394,
+          "endMs": 8980,
+          "status": "verified",
+          "score": 0.94,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -6.2,
+          "width": 0,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -4.4,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_02",
+        "confidence": 1.0,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": "F3",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c003": {
+      "textHash": "sha256:417885e0f6b7d7219a91a74d6d2939113dc52a2605893f53fde1e6b5c4c69bad",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 9181,
+          "endMs": 9463,
+          "status": "verified",
+          "score": 0.59,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 1,
+          "startMs": 9483,
+          "endMs": 9583,
+          "status": "verified",
+          "score": 0.96,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 9603,
+          "endMs": 9744,
+          "status": "verified",
+          "score": 0.97,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.5,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 3,
+          "startMs": 9784,
+          "endMs": 10287,
+          "status": "verified",
+          "score": 0.94,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 10307,
+          "endMs": 10368,
+          "status": "verified",
+          "score": 0.71,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 5,
+          "startMs": 10408,
+          "endMs": 10468,
+          "status": "verified",
+          "score": 0.8,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.0,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 6,
+          "startMs": 10509,
+          "endMs": 10629,
+          "status": "verified",
+          "score": 0.41,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 7,
+          "startMs": 10670,
+          "endMs": 10790,
+          "status": "verified",
+          "score": 0.41,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 8,
+          "startMs": 10810,
+          "endMs": 10851,
+          "status": "verified",
+          "score": 0.5,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 9,
+          "startMs": 10891,
+          "endMs": 11011,
+          "status": "verified",
+          "score": 0.81,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 10,
+          "startMs": 11273,
+          "endMs": 11534,
+          "status": "verified",
+          "score": 0.65,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 11,
+          "startMs": 11555,
+          "endMs": 11655,
+          "status": "verified",
+          "score": 0.61,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 12,
+          "startMs": 11675,
+          "endMs": 12057,
+          "status": "verified",
+          "score": 0.88,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.2,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -4.0,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_02",
+        "confidence": 0.86,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": "F1",
+          "confidence": 0.47,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c004": {
+      "textHash": "sha256:596f7af8710fb3b134eb1cad0fde41c0f6256ac284de9ae8a175c8cd17c2829c",
+      "status": "verified",
+      "speaker": "celia",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 12800,
+          "endMs": 12860,
+          "status": "verified",
+          "score": 0.0,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 12981,
+          "endMs": 13102,
+          "status": "verified",
+          "score": 0.1,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 13122,
+          "endMs": 13243,
+          "status": "verified",
+          "score": 0.31,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 13263,
+          "endMs": 13444,
+          "status": "verified",
+          "score": 0.9,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.6,
+          "width": -1
+        },
+        {
+          "i": 4,
+          "startMs": 13545,
+          "endMs": 13826,
+          "status": "verified",
+          "score": 0.53,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 5,
+          "startMs": 13867,
+          "endMs": 14008,
+          "status": "verified",
+          "score": 0.93,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 6,
+          "startMs": 14028,
+          "endMs": 14229,
+          "status": "verified",
+          "score": 0.68,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 7,
+          "startMs": 14652,
+          "endMs": 14994,
+          "status": "verified",
+          "score": 0.73,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 2.5,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 8,
+          "startMs": 15054,
+          "endMs": 15175,
+          "status": "verified",
+          "score": 0.77,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 2.2,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 9,
+          "startMs": 15215,
+          "endMs": 15356,
+          "status": "verified",
+          "score": 0.94,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 2.0,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 10,
+          "startMs": 15396,
+          "endMs": 15577,
+          "status": "verified",
+          "score": 0.9,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -2.5,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 11,
+          "startMs": 15618,
+          "endMs": 15819,
+          "status": "verified",
+          "score": 0.39,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        },
+        {
+          "i": 12,
+          "startMs": 15839,
+          "endMs": 15940,
+          "status": "verified",
+          "score": 0.17,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.7,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 1.0,
+        "speaker": "celia",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": "F1",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c005": {
+      "textHash": "sha256:2c74e5bb7ceaa405681648e352828be9c89aa602a91395734244b8f83c9de197",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 16804,
+          "endMs": 16865,
+          "status": "proposed",
+          "score": 0.15,
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 16905,
+          "endMs": 17088,
+          "status": "proposed",
+          "score": 0.57,
+          "loud": 0,
+          "loudDb": -3.0,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 17108,
+          "endMs": 17372,
+          "status": "proposed",
+          "score": 0.4,
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 3,
+          "startMs": 17392,
+          "endMs": 17514,
+          "status": "proposed",
+          "score": 0.53,
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 17554,
+          "endMs": 17716,
+          "status": "proposed",
+          "score": 0.58,
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 5,
+          "startMs": 17797,
+          "endMs": 17959,
+          "status": "proposed",
+          "score": 0.62,
+          "loud": -1,
+          "loudDb": -11.5,
+          "width": -1,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.3,
+        "width": 1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.76,
+        "speaker": "celia",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": false,
+        "face": {
+          "identity": "F1",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c006": {
+      "textHash": "sha256:9a6a9212cdc3a315df7af097a716c4b93ab3bd225612eb5202795f1d2df293c4",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 19612,
+          "endMs": 19878,
+          "status": "proposed",
+          "score": 0.25,
+          "loud": 2,
+          "loudDb": 6.4,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 19898,
+          "endMs": 20000,
+          "status": "proposed",
+          "score": 0.18,
+          "loud": -1,
+          "loudDb": -11.9,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.8,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.43,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "face": {
+          "identity": "F1",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c007": {
+      "textHash": "sha256:4026cb3d33a3ae4e703dd43ba5d6b8d8a6fd14b162f6641e22f4737a892f2b02",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "emphasis": [
+        {
+          "tokenIndex": 1,
+          "kind": "weight"
+        }
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 20242,
+          "endMs": 20826,
+          "status": "verified",
+          "score": 0.55,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 20886,
+          "endMs": 21168,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.7,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 21329,
+          "endMs": 21450,
+          "status": "verified",
+          "score": 0.99,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.2,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 3,
+          "startMs": 21470,
+          "endMs": 21550,
+          "status": "verified",
+          "score": 0.39,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 21570,
+          "endMs": 21772,
+          "status": "verified",
+          "score": 0.63,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 5,
+          "startMs": 21832,
+          "endMs": 22154,
+          "status": "verified",
+          "score": 0.85,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.1,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 6,
+          "startMs": 22174,
+          "endMs": 22275,
+          "status": "verified",
+          "score": 0.59,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 7,
+          "startMs": 22295,
+          "endMs": 22396,
+          "status": "verified",
+          "score": 0.49,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 8,
+          "startMs": 22416,
+          "endMs": 22577,
+          "status": "verified",
+          "score": 0.89,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 9,
+          "startMs": 22658,
+          "endMs": 22960,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.0,
+          "width": 0,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.2,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 1.0,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": "F1",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "verifiedBy": "human"
+    },
+    "c008": {
+      "textHash": "sha256:b10993b06c18d164b1bfe991777b0d6a0c62ecb9c3c1d79660bf258fcc671e5b",
+      "status": "verified",
+      "speaker": "thom",
+      "lanes": [
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 23020,
+          "endMs": 23163,
+          "status": "proposed",
+          "score": 0.32,
+          "loud": 0,
+          "loudDb": -3.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 23184,
+          "endMs": 23306,
+          "status": "proposed",
+          "score": 0.15,
+          "loud": 1,
+          "loudDb": 3.6,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 23327,
+          "endMs": 23429,
+          "status": "proposed",
+          "score": 0.17,
+          "loud": 0,
+          "loudDb": 2.9,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 3,
+          "startMs": 23449,
+          "endMs": 23612,
+          "status": "proposed",
+          "score": 0.06,
+          "loud": 0,
+          "loudDb": 1.2,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 23633,
+          "endMs": 23735,
+          "status": "proposed",
+          "score": 0.09,
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": 1,
+          "pitch": 1
+        },
+        {
+          "i": 5,
+          "startMs": 23755,
+          "endMs": 23796,
+          "status": "proposed",
+          "score": 0.0,
+          "loud": 1,
+          "loudDb": 4.4,
+          "width": 0
+        },
+        {
+          "i": 6,
+          "startMs": 23816,
+          "endMs": 24000,
+          "status": "proposed",
+          "score": 0.08,
+          "loud": 1,
+          "loudDb": 4.4,
+          "width": 1,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 2.9,
+        "width": 1,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 1.0,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": null,
+          "confidence": 0.0,
+          "offCamera": true,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "offScreen": true,
+      "verifiedBy": "human"
+    },
+    "c009": {
+      "textHash": "sha256:ab27111b4671bd837d81a648dba8cfebbf0516c761b8fc8a9c42f62a55416384",
+      "status": "verified",
+      "speaker": "celia",
+      "lanes": [
+        "bottom_center"
+      ],
+      "provenance": "human_editor; cue: author, checked against footage; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 24482,
+          "endMs": 25348,
+          "status": "proposed",
+          "score": 0.67,
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 25368,
+          "endMs": 25469,
+          "status": "proposed",
+          "score": 0.2,
+          "loud": 0,
+          "loudDb": -2.8,
+          "width": 1
+        },
+        {
+          "i": 2,
+          "startMs": 26335,
+          "endMs": 26577,
+          "status": "proposed",
+          "score": 0.63,
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 26658,
+          "endMs": 26899,
+          "status": "proposed",
+          "score": 0.43,
+          "loud": 1,
+          "loudDb": 4.1,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.3,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.74,
+        "speaker": "thom",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": false,
+        "face": {
+          "identity": null,
+          "confidence": 0.0,
+          "offCamera": true,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      },
+      "offScreen": true,
+      "verifiedBy": "human"
+    },
+    "c010": {
+      "textHash": "sha256:427ec9fd5b67afc12a81c4402bc1e7edd4be59c025ed8cdf9cfb62d88c4b9569",
+      "status": "proposed",
+      "speaker": "technician",
+      "lanes": [
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 32121,
+          "endMs": 32563,
+          "status": "verified",
+          "score": 0.89,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.1,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 32624,
+          "endMs": 33126,
+          "status": "verified",
+          "score": 0.86,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 2.0,
+          "width": 1
+        },
+        {
+          "i": 2,
+          "startMs": 33247,
+          "endMs": 33649,
+          "status": "verified",
+          "score": 0.71,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -2.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 34394,
+          "endMs": 34534,
+          "status": "verified",
+          "score": 0.88,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.3,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 34555,
+          "endMs": 35460,
+          "status": "verified",
+          "score": 0.29,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -2.0,
+          "width": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.0,
+        "width": 1,
+        "pace": -1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_00",
+        "confidence": 0.72,
+        "speaker": "technician",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track",
+        "face": {
+          "identity": "F6",
+          "confidence": 0.45,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      }
+    },
+    "c011": {
+      "textHash": "sha256:0da22a1c312badb0dca28f9dcee0cad3ee4fa98911c3d63fa93502a84448a124",
+      "status": "proposed",
+      "speaker": "crew",
+      "lanes": [
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 43040,
+          "endMs": 43162,
+          "status": "verified",
+          "score": 0.21,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 43182,
+          "endMs": 43303,
+          "status": "verified",
+          "score": 0.79,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 3.0,
+          "width": -1
+        },
+        {
+          "i": 2,
+          "startMs": 43465,
+          "endMs": 43747,
+          "status": "verified",
+          "score": 0.84,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -2.8,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 43848,
+          "endMs": 44232,
+          "status": "verified",
+          "score": 0.61,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.4,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.66,
+        "speaker": "celia",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": false,
+        "face": {
+          "identity": "F2",
+          "confidence": 0.5,
+          "offCamera": false,
+          "provenance": "yunet+sface+lip-activity"
+        }
+      }
+    }
+  },
+  "sounds": [
+    {
+      "id": "sfx01",
+      "startMs": 25000,
+      "endMs": 32500,
+      "label": "music",
+      "loudDb": -2.1,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.89",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx02",
+      "startMs": 33000,
+      "endMs": 34500,
+      "label": "vehicle",
+      "loudDb": -4.7,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.67"
+    },
+    {
+      "id": "sfx03",
+      "startMs": 34000,
+      "endMs": 48018,
+      "label": "music",
+      "loudDb": 1.5,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.93",
+      "verifiedBy": "auto:panns>=0.8"
+    }
+  ]
+}

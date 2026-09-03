@@ -1,0 +1,2148 @@
+{
+  "schemaVersion": "0.2",
+  "canonicalTrack": "captions.en.vtt",
+  "speakers": {
+    "maya": {
+      "label": "MAYA",
+      "color": "speaker-1",
+      "revealAtMs": 0
+    },
+    "daniel": {
+      "label": "DANIEL",
+      "color": "speaker-2",
+      "revealAtMs": 0
+    },
+    "amara": {
+      "label": "AMARA",
+      "genericLabel": "UNKNOWN VOICE",
+      "color": "speaker-3",
+      "revealAtMs": 30000
+    }
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "startMs": 0,
+      "endMs": 30000
+    },
+    {
+      "id": "s2",
+      "startMs": 30000,
+      "endMs": 45400
+    },
+    {
+      "id": "s3",
+      "startMs": 45400,
+      "endMs": 54000
+    }
+  ],
+  "cues": {
+    "c001": {
+      "textHash": "sha256:ce8bd8cc5f3eda0958f13bc7ec4e87764e5ab5a755b8ca29c0db410a2e964f60",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 300,
+          "endMs": 543,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 644,
+          "endMs": 745,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 786,
+          "endMs": 948,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.0,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 1008,
+          "endMs": 1150,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.2,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 4,
+          "startMs": 1211,
+          "endMs": 1393,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.5,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 5,
+          "startMs": 1494,
+          "endMs": 1555,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.1,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 6,
+          "startMs": 1615,
+          "endMs": 1696,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.9,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 1,
+        "loudDb": 3.1,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c002": {
+      "textHash": "sha256:979275f646ac990c3fd955127d96e4c96f9e8aee294b91aec3d519d10dc7dafe",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 2261,
+          "endMs": 2404,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 2445,
+          "endMs": 2629,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.3,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 2690,
+          "endMs": 2771,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 2894,
+          "endMs": 3037,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -7.6,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.4,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c003": {
+      "textHash": "sha256:3f9e810c6f9e7b72a72cd08e7433a44f536ae9e117660c6382e4385a520c7e46",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 3420,
+          "endMs": 3663,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 3704,
+          "endMs": 3805,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 3.0,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 3927,
+          "endMs": 4352,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.7,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 4372,
+          "endMs": 5000,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": -1.1,
+          "width": -1,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.8,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c004": {
+      "textHash": "sha256:a77401463cce9edef15df7dc56e04f496b4354edeef35bb465898ed46539f70e",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 5241,
+          "endMs": 5383,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.8,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 5424,
+          "endMs": 5587,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -6.7,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 5628,
+          "endMs": 5933,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -5.9,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -5.9,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c005": {
+      "textHash": "sha256:80ecf2465d30b4a751150ec1e8b7955762b4f378633387e61d6d60b60550bade",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 6541,
+          "endMs": 6683,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.9,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 6744,
+          "endMs": 6846,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.8,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 6907,
+          "endMs": 6969,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -7.1,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 7030,
+          "endMs": 7376,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.2,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c006": {
+      "textHash": "sha256:45673d7c0717715740e17bd7f5ddf1e20d61b2abc42aeada9b2476f1d74e6d56",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 7800,
+          "endMs": 7962,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": -1.9,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 8043,
+          "endMs": 8571,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.3,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 8652,
+          "endMs": 9139,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -5.9,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -4.3,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c007": {
+      "textHash": "sha256:2dbdbd127d0528bc2e9c9a17ae9918db1651195c0b901a1e6d9c12d04971ac98",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 9400,
+          "endMs": 9602,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 9643,
+          "endMs": 9926,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.2,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 10006,
+          "endMs": 10491,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.3,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 10552,
+          "endMs": 10977,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.4,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.5,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c008": {
+      "textHash": "sha256:5fa1b0a009bcc93ad2ed21f622b3edb406a3d0e11f77a50176cb2587d42ffcf2",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 11561,
+          "endMs": 11744,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.8,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 11785,
+          "endMs": 11846,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -8.6,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 11928,
+          "endMs": 12193,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.5,
+          "width": -1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -4.5,
+        "width": -1,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c009": {
+      "textHash": "sha256:aae6a1f8620871ecdaeee0a711606c1b2308e8d1269e8aa269fd720533c4088f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 12841,
+          "endMs": 13003,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 2.5,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 13044,
+          "endMs": 13268,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.3,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 13308,
+          "endMs": 13410,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.8,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 13451,
+          "endMs": 13634,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.8,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 2.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c010": {
+      "textHash": "sha256:0fd44cd7ebd92d2e4510dd532445848b3cc8c8b74a9a182c2ab6dfc016b1245f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speakers": [
+        "daniel",
+        "maya"
+      ],
+      "lanes": [
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 14200,
+          "endMs": 14422,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 14483,
+          "endMs": 14766,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.7,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 14786,
+          "endMs": 15291,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 15331,
+          "endMs": 15392,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -5.9,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 15493,
+          "endMs": 15594,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -14.0,
+          "width": -1
+        },
+        {
+          "i": 5,
+          "startMs": 15614,
+          "endMs": 16200,
+          "status": "proposed",
+          "loud": -1,
+          "loudDb": -6.1,
+          "width": -1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -5.3,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c011": {
+      "textHash": "sha256:167f4f1b1c3d16a71b03fc54a1fb77a26d20695fef02cefe8b7842d30a94cbd6",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 16661,
+          "endMs": 16863,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 1.1,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 16883,
+          "endMs": 17045,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 0.5,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 17065,
+          "endMs": 17166,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 2.9,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 17207,
+          "endMs": 17429,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 4,
+          "startMs": 17449,
+          "endMs": 17551,
+          "status": "proposed",
+          "loud": -1,
+          "loudDb": -10.3,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.1,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c012": {
+      "textHash": "sha256:97efdad3266aae85f75b023fb147c88ae519e2d537460461c944b1c48d7ffc8f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 18641,
+          "endMs": 18783,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 18824,
+          "endMs": 18967,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 19007,
+          "endMs": 19252,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -6.1,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.9,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c013": {
+      "textHash": "sha256:ef51970574732f5f0b3b69ced678d4cd5bbc982a3d158f4fa8e00a461a780b7b",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 19941,
+          "endMs": 20022,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 20062,
+          "endMs": 20265,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 20306,
+          "endMs": 20407,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 1,
+          "loudDb": 3.1,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 20428,
+          "endMs": 20590,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 2.3,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 4,
+          "startMs": 20630,
+          "endMs": 20894,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.7,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c014": {
+      "textHash": "sha256:733c63d6809fdb2858e499888f9a9d23d86432bec603c20cb228d62bc109b34f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 21561,
+          "endMs": 21742,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 2.8,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 21762,
+          "endMs": 21884,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 2.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 21904,
+          "endMs": 21944,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 2.6,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 21964,
+          "endMs": 22086,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 22106,
+          "endMs": 22166,
+          "status": "proposed",
+          "loud": -1,
+          "loudDb": -7.7,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 5,
+          "startMs": 22429,
+          "endMs": 22590,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.6,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 6,
+          "startMs": 22631,
+          "endMs": 22712,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -15.2,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 7,
+          "startMs": 22752,
+          "endMs": 23035,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.0,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c015": {
+      "textHash": "sha256:631d06b1bffb257dfbc839f392f808a7ca0af64e430ed57f1a0857622d9e054c",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speakers": [
+        "maya",
+        "daniel"
+      ],
+      "lanes": [
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 23800,
+          "endMs": 23982,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.3,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 24042,
+          "endMs": 24224,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 24285,
+          "endMs": 24648,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.3,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 24669,
+          "endMs": 25073,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.6,
+          "width": -1
+        },
+        {
+          "i": 4,
+          "startMs": 25093,
+          "endMs": 25275,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 5,
+          "startMs": 25315,
+          "endMs": 25598,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 2.8,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 6,
+          "startMs": 25659,
+          "endMs": 25800,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.1,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c016": {
+      "textHash": "sha256:7a77cc9ab90f1139f5cbe1a5d8c431bb0ac34d803043fa459530a4920e07b0a0",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "sound": {
+        "direction": "right"
+      },
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 26100,
+          "endMs": 26263,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": -0.1,
+          "width": -1
+        },
+        {
+          "i": 1,
+          "startMs": 26283,
+          "endMs": 27097,
+          "status": "proposed",
+          "loud": -1,
+          "loudDb": -7.1,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -3.6,
+        "width": -1,
+        "pace": -1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c017": {
+      "textHash": "sha256:3f6e14822311aec9f7e2143f182b719075b49d64bdd84128362ab1767acd4415",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 27520,
+          "endMs": 27684,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.6,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 27724,
+          "endMs": 27847,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.1,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 27888,
+          "endMs": 28133,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.0,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c018": {
+      "textHash": "sha256:497530c9c83de0523d16438a95cd37e8295c18d15488008cb388be384105843d",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 28761,
+          "endMs": 28945,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.7,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 29007,
+          "endMs": 29232,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -8.6,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -5.2,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c019": {
+      "textHash": "sha256:22a71542b4ac6d5c194b34f9c360c625cc815afc9d15550e83924ba0523f6cf8",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 30000,
+          "endMs": 30161,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.5,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 30222,
+          "endMs": 30343,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.6,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 30404,
+          "endMs": 30484,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 30525,
+          "endMs": 30807,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 4,
+          "startMs": 31130,
+          "endMs": 31453,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.7,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.3,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c020": {
+      "textHash": "sha256:837b1a86190f1d3219d5ac0e6a9c4361f1b49820c32fea437575c42d21737191",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 32441,
+          "endMs": 32906,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -3.5,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 33149,
+          "endMs": 33332,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.1,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 33372,
+          "endMs": 33534,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.6,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 33554,
+          "endMs": 33656,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.4,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 33696,
+          "endMs": 33899,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.6,
+          "width": -1
+        },
+        {
+          "i": 5,
+          "startMs": 33919,
+          "endMs": 33980,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -8.8,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.0,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c021": {
+      "textHash": "sha256:10de6d0e5e166e56023fbfeafe33353df509b8cf773679ab8abc0798f7433907",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 34220,
+          "endMs": 34422,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 34462,
+          "endMs": 34745,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 34785,
+          "endMs": 35108,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.3,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 35411,
+          "endMs": 35552,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.2,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 35593,
+          "endMs": 35754,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 5,
+          "startMs": 35794,
+          "endMs": 35916,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.4,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 6,
+          "startMs": 35936,
+          "endMs": 36218,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.2,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.7,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c022": {
+      "textHash": "sha256:6312babaaaaf03471be3198afafc67f255f64d242ba1d05614c96643af2da73c",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 36641,
+          "endMs": 36722,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 36763,
+          "endMs": 36946,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": -1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 37007,
+          "endMs": 37353,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.9,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.4,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c023": {
+      "textHash": "sha256:758aa1002dda5d14aef24c6cd134a1d9ffd859fdb05b8774b804f891e78b7efe",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 38020,
+          "endMs": 38123,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 38225,
+          "endMs": 38348,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.6,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c024": {
+      "textHash": "sha256:bbff7b98d6da70612cb94badd2dde68a4dbe1107104b55f330a2225c8ebf55b2",
+      "status": "proposed",
+      "provenance": "automated_suggestion; words: whisperx auto-accepted (score>=0.5); pending human review",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 39141,
+          "endMs": 39304,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.4,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 39365,
+          "endMs": 39447,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.9,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 39549,
+          "endMs": 39651,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -15.7,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.9,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      }
+    },
+    "c025": {
+      "textHash": "sha256:a6c70222610d7d23f3e99bc691413f9d0b0b5050acc9e2d78ca27e5915b4a429",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 40401,
+          "endMs": 40603,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.1,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 40643,
+          "endMs": 40825,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 40845,
+          "endMs": 40946,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 2.5,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 40987,
+          "endMs": 41128,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 2.2,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 4,
+          "startMs": 41169,
+          "endMs": 41330,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.6,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 5,
+          "startMs": 41391,
+          "endMs": 41633,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.3,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 6,
+          "startMs": 41654,
+          "endMs": 41714,
+          "status": "proposed",
+          "loud": 0,
+          "loudDb": 2.5,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.4,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c026": {
+      "textHash": "sha256:51f269ce5b1e5c21fbb8713921175a697e630cd32dd2a17c8f033c98ba2b194a",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 42561,
+          "endMs": 42765,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 42867,
+          "endMs": 43112,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 43153,
+          "endMs": 43214,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -3.1,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.0,
+        "width": 1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c027": {
+      "textHash": "sha256:4d6733a8c9a1ea65d425f9d7aa32fa3347be99158f3ee18beef40c4271df1a34",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 43781,
+          "endMs": 43923,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 43943,
+          "endMs": 44085,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.4,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 44125,
+          "endMs": 44246,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.1,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 44267,
+          "endMs": 44469,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 4,
+          "startMs": 44510,
+          "endMs": 44914,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.1,
+          "width": 0,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c028": {
+      "textHash": "sha256:999965a002c2c33336ec504c796b4f0f42cf8fa3bb6fa40232b0c0a4e1075c54",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 47261,
+          "endMs": 47403,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -4.4,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 47463,
+          "endMs": 48010,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.7,
+          "width": -1,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 48071,
+          "endMs": 48415,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -6.4,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 48435,
+          "endMs": 48800,
+          "status": "proposed",
+          "loud": -1,
+          "loudDb": -11.1,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -5.4,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c029": {
+      "textHash": "sha256:89637c03a948a19d11948db05148289e100c9593149d38ae50581a9bd576adc8",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "emphasis": [
+        {
+          "tokenIndex": 2,
+          "kind": "weight"
+        }
+      ],
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 49041,
+          "endMs": 49122,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -1.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 49162,
+          "endMs": 49284,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.1,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 49344,
+          "endMs": 49587,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.8,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 49628,
+          "endMs": 49952,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 1.4,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.7,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c030": {
+      "textHash": "sha256:70f592b3743f37af865945455a007ebca0eea3809704ff997b0dd9a553030a33",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 50861,
+          "endMs": 50942,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.1,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 50983,
+          "endMs": 51146,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -2.3,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 51186,
+          "endMs": 51308,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -3.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 51349,
+          "endMs": 51553,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -6.0,
+          "width": -1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -2.7,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    },
+    "c031": {
+      "textHash": "sha256:5293896a3f40071c1ed9d1abcd0f83d5dff727f639c745b7883942a732f6566b",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "words": [
+        {
+          "i": 0,
+          "startMs": 52261,
+          "endMs": 52546,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 1,
+          "startMs": 52627,
+          "endMs": 52729,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": -1,
+          "loudDb": -6.7,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 2,
+          "startMs": 52769,
+          "endMs": 52831,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": 0.6,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 52871,
+          "endMs": 53176,
+          "status": "verified",
+          "verifiedBy": "score>=0.5",
+          "loud": 0,
+          "loudDb": -0.0,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.2,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "dev-bench"
+      },
+      "verifiedBy": "human"
+    }
+  }
+}

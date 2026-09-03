@@ -1,0 +1,1564 @@
+{
+  "schemaVersion": "0.2",
+  "canonicalTrack": "captions.en.vtt",
+  "speakers": {
+    "director": {
+      "label": "DIRECTOR",
+      "genericLabel": "WOMAN",
+      "color": "speaker-1",
+      "revealAtMs": 0
+    },
+    "barley": {
+      "label": "BARLEY",
+      "genericLabel": "MAN",
+      "color": "speaker-2",
+      "revealAtMs": 0
+    }
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "startMs": 0,
+      "endMs": 60000
+    }
+  ],
+  "cues": {
+    "c001": {
+      "textHash": "sha256:ec5d2ded6e26b4183830878e32df209e0cb2e4b23073690eb2cb67988f3dd124",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 1490,
+          "endMs": 1571,
+          "status": "verified",
+          "score": 0.9,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -3.1,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 1592,
+          "endMs": 1673,
+          "status": "verified",
+          "score": 0.2,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -0.9,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 1755,
+          "endMs": 2000,
+          "status": "verified",
+          "score": 0.89,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.9,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.6,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c002": {
+      "textHash": "sha256:90ce74c820d4510d2737b9f1b33f0237046dc3ceee2f2373182c4153cea6ad7e",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 3000,
+          "endMs": 3040,
+          "status": "proposed",
+          "score": 0.0,
+          "loud": 0,
+          "loudDb": -4.0,
+          "width": -1
+        },
+        {
+          "i": 1,
+          "startMs": 3061,
+          "endMs": 3202,
+          "status": "proposed",
+          "score": 0.08,
+          "loud": 1,
+          "loudDb": 4.2,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 2,
+          "startMs": 3222,
+          "endMs": 3343,
+          "status": "proposed",
+          "score": 0.0,
+          "loud": 0,
+          "loudDb": 2.9,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 3,
+          "startMs": 3364,
+          "endMs": 3505,
+          "status": "proposed",
+          "score": 0.25,
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 3606,
+          "endMs": 3848,
+          "status": "verified",
+          "score": 0.84,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 1,
+          "loudDb": 5.0,
+          "width": 1,
+          "pitch": -1
+        },
+        {
+          "i": 5,
+          "startMs": 3869,
+          "endMs": 3909,
+          "status": "verified",
+          "score": 0.49,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 1,
+          "loudDb": 3.1,
+          "width": 0
+        },
+        {
+          "i": 6,
+          "startMs": 3970,
+          "endMs": 4515,
+          "status": "verified",
+          "score": 0.76,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 1,
+          "loudDb": 3.1,
+          "width": 1,
+          "pitch": 0
+        }
+      ],
+      "delivery": {
+        "loud": 1,
+        "loudDb": 3.1,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.72,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c003": {
+      "textHash": "sha256:3ff515134f11999881016a1bd66f847f34d031a041a21d649b0d26fd2915ab5e",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 7204,
+          "endMs": 7347,
+          "status": "verified",
+          "score": 0.26,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 7388,
+          "endMs": 7490,
+          "status": "verified",
+          "score": 0.73,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.7,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 7510,
+          "endMs": 7776,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 2.6,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 3,
+          "startMs": 7796,
+          "endMs": 8000,
+          "status": "verified",
+          "score": 0.25,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 1.0,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.0,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.85,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c004": {
+      "textHash": "sha256:f70219490936ea73da00601cc5769610b551a7bc48282de4140e49d5b23e561b",
+      "status": "proposed",
+      "speaker": "barley",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 9000,
+          "endMs": 9040,
+          "status": "verified",
+          "score": 0.0,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 0.0,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 9141,
+          "endMs": 9384,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.8,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 9424,
+          "endMs": 9566,
+          "status": "verified",
+          "score": 0.87,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.4,
+          "width": 0,
+          "pitch": 0
+        },
+        {
+          "i": 3,
+          "startMs": 9626,
+          "endMs": 9828,
+          "status": "verified",
+          "score": 0.93,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.2,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 9889,
+          "endMs": 10071,
+          "status": "verified",
+          "score": 0.84,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 5,
+          "startMs": 10111,
+          "endMs": 10455,
+          "status": "verified",
+          "score": 0.94,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.2,
+          "width": 0,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.0,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.86,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": false
+      }
+    },
+    "c005": {
+      "textHash": "sha256:059a7b306a0ab0032c960b39bc25e5d0a3482f7c5d6781f4a1d74bfe9231d543",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 11804,
+          "endMs": 11986,
+          "status": "verified",
+          "score": 0.99,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.5,
+          "width": 1,
+          "pitch": 0
+        },
+        {
+          "i": 1,
+          "startMs": 12027,
+          "endMs": 12230,
+          "status": "verified",
+          "score": 0.84,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.5,
+          "width": 0,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 12351,
+          "endMs": 12797,
+          "status": "verified",
+          "score": 0.82,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 1.6,
+          "width": 1
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 1.5,
+        "width": 1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_03",
+        "confidence": 0.69,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c006": {
+      "textHash": "sha256:fec6bc8a20982abee09c0949fb9941ff43d7c3c36fcda0d630d0e1f7ee9f7447",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 13621,
+          "endMs": 13822,
+          "status": "verified",
+          "score": 0.66,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 1,
+          "loudDb": 4.6,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 13923,
+          "endMs": 14023,
+          "status": "verified",
+          "score": 0.86,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 1,
+          "loudDb": 5.8,
+          "width": -1,
+          "pitch": 1
+        },
+        {
+          "i": 2,
+          "startMs": 14124,
+          "endMs": 14205,
+          "status": "verified",
+          "score": 0.23,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 1,
+          "loudDb": 4.6,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 14326,
+          "endMs": 14547,
+          "status": "verified",
+          "score": 0.77,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 1,
+          "loudDb": 4.3,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 15332,
+          "endMs": 15534,
+          "status": "verified",
+          "score": 0.68,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 1,
+          "loudDb": 4.6,
+          "width": 0
+        },
+        {
+          "i": 5,
+          "startMs": 15574,
+          "endMs": 16077,
+          "status": "verified",
+          "score": 0.79,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": 0.9,
+          "width": -1
+        },
+        {
+          "i": 6,
+          "startMs": 16138,
+          "endMs": 16480,
+          "status": "verified",
+          "score": 0.87,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 2,
+          "loudDb": 8.4,
+          "width": 0,
+          "pitch": 1
+        }
+      ],
+      "delivery": {
+        "loud": 1,
+        "loudDb": 4.6,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_04",
+        "confidence": 0.8,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c007": {
+      "textHash": "sha256:6dedeacb01dd37ab09f26916e116c359d6242415c2e037798b34edc3f1061959",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 16602,
+          "endMs": 16764,
+          "status": "verified",
+          "score": 0.29,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 2,
+          "loudDb": 7.1,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 16805,
+          "endMs": 17028,
+          "status": "verified",
+          "score": 0.77,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 1,
+          "loudDb": 4.4,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 17109,
+          "endMs": 17373,
+          "status": "verified",
+          "score": 0.58,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 2,
+          "loudDb": 7.1,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 2,
+        "loudDb": 7.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_04",
+        "confidence": 1.0,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c008": {
+      "textHash": "sha256:c1004d359111ffc94e840f9cc96930214250b14c774bd34700dde2d8468d4708",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 18040,
+          "endMs": 18201,
+          "status": "proposed",
+          "score": 0.45,
+          "loud": 2,
+          "loudDb": 8.8,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 18302,
+          "endMs": 18543,
+          "status": "proposed",
+          "score": 0.6,
+          "loud": 2,
+          "loudDb": 7.9,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 19950,
+          "endMs": 20211,
+          "status": "proposed",
+          "score": 0.4,
+          "loud": 2,
+          "loudDb": 7.0,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 20533,
+          "endMs": 20814,
+          "status": "proposed",
+          "score": 0.35,
+          "loud": 2,
+          "loudDb": 6.2,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 20874,
+          "endMs": 21136,
+          "status": "verified",
+          "score": 0.79,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 2,
+          "loudDb": 7.1,
+          "width": 0
+        },
+        {
+          "i": 5,
+          "startMs": 21216,
+          "endMs": 21457,
+          "status": "verified",
+          "score": 0.77,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 2,
+          "loudDb": 7.8,
+          "width": 0
+        },
+        {
+          "i": 6,
+          "startMs": 21497,
+          "endMs": 21779,
+          "status": "verified",
+          "score": 0.57,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 2,
+          "loudDb": 7.1,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 2,
+        "loudDb": 7.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_04",
+        "confidence": 0.36,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c009": {
+      "textHash": "sha256:46e82088b4c78f161495310e6c896eeae272fa6f2f9c2b51c90a5859bae4fca8",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 23261,
+          "endMs": 23322,
+          "status": "proposed",
+          "score": 0.67,
+          "loud": 2,
+          "loudDb": 11.0,
+          "width": -1
+        },
+        {
+          "i": 1,
+          "startMs": 23342,
+          "endMs": 23442,
+          "status": "proposed",
+          "score": 0.12,
+          "loud": 2,
+          "loudDb": 8.6,
+          "width": -1
+        },
+        {
+          "i": 2,
+          "startMs": 23643,
+          "endMs": 23965,
+          "status": "proposed",
+          "score": 0.56,
+          "loud": 2,
+          "loudDb": 8.4,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 26055,
+          "endMs": 26477,
+          "status": "proposed",
+          "score": 0.44,
+          "loud": 2,
+          "loudDb": 9.5,
+          "width": 0
+        },
+        {
+          "i": 4,
+          "startMs": 26518,
+          "endMs": 26578,
+          "status": "proposed",
+          "score": 0.12,
+          "loud": 2,
+          "loudDb": 8.0,
+          "width": 0
+        },
+        {
+          "i": 5,
+          "startMs": 26598,
+          "endMs": 26698,
+          "status": "proposed",
+          "score": 0.43,
+          "loud": 2,
+          "loudDb": 8.1,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 2,
+        "loudDb": 8.5,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_00",
+        "confidence": 0.65,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c010": {
+      "textHash": "sha256:9b857e18dc52762a903951beb2bd28a21611a8ebdccc7aa33a051c45011e060e",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 33000,
+          "endMs": 33204,
+          "status": "verified",
+          "score": 0.31,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": 0.1,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 33306,
+          "endMs": 33673,
+          "status": "verified",
+          "score": 0.7,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.3,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": 0.1,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_02",
+        "confidence": 0.85,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c011": {
+      "textHash": "sha256:a53af90ffa4302dc3333c5faceb47a66e536e25a0d7b69c1c43ced09e8d9f3ee",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 34703,
+          "endMs": 35029,
+          "status": "verified",
+          "score": 0.89,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.4,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 35049,
+          "endMs": 35131,
+          "status": "verified",
+          "score": 0.76,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -3.8,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 35151,
+          "endMs": 35354,
+          "status": "verified",
+          "score": 0.89,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.3,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 35395,
+          "endMs": 35598,
+          "status": "verified",
+          "score": 0.99,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.5,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -0.5,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_02",
+        "confidence": 0.92,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c012": {
+      "textHash": "sha256:4b7c3e18b45a3a7040aff2a52054ec0a840d26e553155283d3854c4364b02ea6",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 36020,
+          "endMs": 36122,
+          "status": "proposed",
+          "score": 0.02,
+          "loud": -1,
+          "loudDb": -10.4,
+          "width": 0,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -10.4,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      }
+    },
+    "c013": {
+      "textHash": "sha256:2218836e5f3231e07455af86f5e961917d16e7e9a0b71c568776b49398cfe100",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 42152,
+          "endMs": 42333,
+          "status": "verified",
+          "score": 0.73,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -7.0,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 42354,
+          "endMs": 42515,
+          "status": "verified",
+          "score": 0.8,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -8.6,
+          "width": -1
+        },
+        {
+          "i": 2,
+          "startMs": 42616,
+          "endMs": 42717,
+          "status": "verified",
+          "score": 0.83,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -13.1,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -8.6,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.37,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c014": {
+      "textHash": "sha256:ad679280d5d454098660f053af92ae712ffaa21e89eea6520a87039069b4976f",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 43704,
+          "endMs": 43949,
+          "status": "verified",
+          "score": 0.93,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -8.1,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -8.1,
+        "width": 0,
+        "pace": -1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.32,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c015": {
+      "textHash": "sha256:26e682eda863ca24ce0f4e26372466feb44f75f203a2db9fdd2ecd540cb192cf",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 45449,
+          "endMs": 45571,
+          "status": "verified",
+          "score": 0.87,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -7.6,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 1,
+          "startMs": 45612,
+          "endMs": 45755,
+          "status": "verified",
+          "score": 0.26,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -3.9,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 45816,
+          "endMs": 46000,
+          "status": "verified",
+          "score": 0.53,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": 0,
+          "loudDb": -3.9,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": 0,
+        "loudDb": -3.9,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.58,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c016": {
+      "textHash": "sha256:4c63dd8e6c27037bca9669655c0a46c4fff783d5d60e95bc148bc0378870628b",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 47527,
+          "endMs": 47588,
+          "status": "verified",
+          "score": 0.1,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": -1,
+          "loudDb": -5.2,
+          "width": -1
+        },
+        {
+          "i": 1,
+          "startMs": 47608,
+          "endMs": 47689,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -4.6,
+          "width": -1
+        },
+        {
+          "i": 2,
+          "startMs": 47709,
+          "endMs": 47872,
+          "status": "verified",
+          "score": 0.85,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -2.6,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 47953,
+          "endMs": 48419,
+          "status": "verified",
+          "score": 0.78,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -6.3,
+          "width": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -5.2,
+        "width": -1,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.64,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true,
+        "autoRecommend": "auto:diarization>=0.6+track"
+      }
+    },
+    "c017": {
+      "textHash": "sha256:4e52f9b56b042748aae927ee2c01464d868fdc5d11a522ed5a7fd6fb3736f692",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 50000,
+          "endMs": 50102,
+          "status": "proposed",
+          "score": 0.35,
+          "loud": -1,
+          "loudDb": -7.1,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 50143,
+          "endMs": 50327,
+          "status": "proposed",
+          "score": 0.39,
+          "loud": -1,
+          "loudDb": -10.2,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 50347,
+          "endMs": 50388,
+          "status": "proposed",
+          "score": 0.39,
+          "loud": -1,
+          "loudDb": -16.5,
+          "width": 1
+        },
+        {
+          "i": 3,
+          "startMs": 50408,
+          "endMs": 50531,
+          "status": "proposed",
+          "score": 0.5,
+          "loud": -1,
+          "loudDb": -15.8,
+          "width": 1,
+          "pitch": -1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -13.0,
+        "width": 0,
+        "pace": 1,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.37,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c018": {
+      "textHash": "sha256:c5658008ed221d63480b3cd89f1dc396305c20c7ab0c8b6973e4fb8ee9329f62",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 51540,
+          "endMs": 51641,
+          "status": "verified",
+          "score": 0.65,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": -1,
+          "loudDb": -10.7,
+          "width": 0
+        },
+        {
+          "i": 1,
+          "startMs": 51681,
+          "endMs": 52064,
+          "status": "verified",
+          "score": 0.85,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": 0,
+          "loudDb": -0.7,
+          "width": 0
+        },
+        {
+          "i": 2,
+          "startMs": 52225,
+          "endMs": 52346,
+          "status": "proposed",
+          "score": 0.36,
+          "loud": -1,
+          "loudDb": -10.7,
+          "width": 1
+        },
+        {
+          "i": 3,
+          "startMs": 53735,
+          "endMs": 53836,
+          "status": "proposed",
+          "score": 0.51,
+          "loud": -1,
+          "loudDb": -13.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 53896,
+          "endMs": 54258,
+          "status": "verified",
+          "score": 0.85,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -11.5,
+          "width": 1
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -10.7,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.46,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    },
+    "c019": {
+      "textHash": "sha256:fbf8db69dd3ca32ed078455f76e211faab4d15208e0012d5308c3c52c06c396b",
+      "status": "proposed",
+      "speaker": "director",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "provenance": "human_editor; words: whisperx auto-accepted (score>=0.7); pending human review",
+      "words": [
+        {
+          "i": 0,
+          "startMs": 55604,
+          "endMs": 56047,
+          "status": "verified",
+          "score": 0.95,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -8.3,
+          "width": 1
+        },
+        {
+          "i": 1,
+          "startMs": 56107,
+          "endMs": 56268,
+          "status": "verified",
+          "score": 0.87,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -8.4,
+          "width": 1
+        },
+        {
+          "i": 2,
+          "startMs": 57094,
+          "endMs": 57275,
+          "status": "verified",
+          "score": 0.52,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": -1,
+          "loudDb": -10.0,
+          "width": 0
+        },
+        {
+          "i": 3,
+          "startMs": 57315,
+          "endMs": 57638,
+          "status": "verified",
+          "score": 0.84,
+          "verifiedBy": "auto:align>=0.7",
+          "loud": -1,
+          "loudDb": -10.0,
+          "width": 0,
+          "pitch": -1
+        },
+        {
+          "i": 4,
+          "startMs": 57758,
+          "endMs": 57879,
+          "status": "verified",
+          "score": 0.64,
+          "verifiedBy": "auto:interpolated",
+          "interpolated": true,
+          "loud": -1,
+          "loudDb": -10.0,
+          "width": 0
+        }
+      ],
+      "delivery": {
+        "loud": -1,
+        "loudDb": -10.0,
+        "width": 0,
+        "pace": 0,
+        "status": "verified",
+        "verifiedBy": "auto:measured"
+      },
+      "speakerProposal": {
+        "cluster": "SPEAKER_01",
+        "confidence": 0.58,
+        "speaker": "director",
+        "provenance": "pyannote/speaker-diarization-3.1",
+        "agreesWithTrack": true
+      }
+    }
+  },
+  "sounds": [
+    {
+      "id": "sfx01",
+      "startMs": 2000,
+      "endMs": 3000,
+      "label": "vehicle",
+      "loudDb": -8.0,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.43"
+    },
+    {
+      "id": "sfx02",
+      "startMs": 10500,
+      "endMs": 15500,
+      "label": "music",
+      "loudDb": -3.5,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.94",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx03",
+      "startMs": 16500,
+      "endMs": 19500,
+      "label": "music",
+      "loudDb": 1.0,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.89",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx04",
+      "startMs": 19500,
+      "endMs": 21500,
+      "label": "vehicle",
+      "loudDb": 0.9,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.54"
+    },
+    {
+      "id": "sfx05",
+      "startMs": 21500,
+      "endMs": 23000,
+      "label": "music",
+      "loudDb": 0.7,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.88",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx06",
+      "startMs": 22500,
+      "endMs": 23500,
+      "label": "vehicle",
+      "loudDb": 1.5,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.56"
+    },
+    {
+      "id": "sfx07",
+      "startMs": 23500,
+      "endMs": 24500,
+      "label": "vehicle",
+      "loudDb": 2.7,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.41"
+    },
+    {
+      "id": "sfx08",
+      "startMs": 24500,
+      "endMs": 26000,
+      "label": "vehicle",
+      "loudDb": 4.6,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.60"
+    },
+    {
+      "id": "sfx09",
+      "startMs": 26000,
+      "endMs": 35500,
+      "label": "music",
+      "loudDb": -0.4,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.86",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx10",
+      "startMs": 35500,
+      "endMs": 37000,
+      "label": "music",
+      "loudDb": -9.2,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.90",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx11",
+      "startMs": 37500,
+      "endMs": 43500,
+      "label": "music",
+      "loudDb": -18.4,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.83",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx12",
+      "startMs": 45000,
+      "endMs": 46000,
+      "label": "music",
+      "loudDb": -11.4,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.69"
+    },
+    {
+      "id": "sfx13",
+      "startMs": 46000,
+      "endMs": 47500,
+      "label": "music",
+      "loudDb": -18.9,
+      "status": "proposed",
+      "provenance": "panns-cnn14 score=0.67"
+    },
+    {
+      "id": "sfx14",
+      "startMs": 49000,
+      "endMs": 52000,
+      "label": "music",
+      "loudDb": -12.6,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.86",
+      "verifiedBy": "auto:panns>=0.8"
+    },
+    {
+      "id": "sfx15",
+      "startMs": 52000,
+      "endMs": 60000,
+      "label": "music",
+      "loudDb": -18.2,
+      "status": "verified",
+      "provenance": "panns-cnn14 score=0.87",
+      "verifiedBy": "auto:panns>=0.8"
+    }
+  ]
+}

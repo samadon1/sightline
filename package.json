@@ -1,0 +1,23 @@
+{
+  "name": "sightline-wip",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*",
+    "apps/vega-player"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "validate": "node --experimental-strip-types tools/validate.ts",
+    "hashes": "node --experimental-strip-types tools/validate.ts --hashes",
+    "bundle-assets": "node --experimental-strip-types tools/bundle-assets.ts",
+    "sync-report": "node --experimental-strip-types tools/sync-report.ts",
+    "export-schema": "node --experimental-strip-types tools/export-schema.ts",
+    "postinstall": "test -f apps/vega-player/src/w3cmedia/shakaplayer/ShakaPlayer.ts || tools/shaka/fetch-glue.sh",
+    "shaka:glue": "tools/shaka/fetch-glue.sh"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "type": "module"
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "0.1",
+  "canonicalTrack": "captions.en.vtt",
+  "speakers": {
+    "maya": {
+      "label": "MAYA",
+      "color": "speaker-1",
+      "revealAtMs": 0
+    },
+    "daniel": {
+      "label": "DANIEL",
+      "color": "speaker-2",
+      "revealAtMs": 0
+    },
+    "amara": {
+      "label": "AMARA",
+      "genericLabel": "UNKNOWN VOICE",
+      "color": "speaker-3",
+      "revealAtMs": 15500
+    }
+  },
+  "shots": [
+    {
+      "id": "s1",
+      "startMs": 0,
+      "endMs": 24000
+    }
+  ],
+  "cues": {
+    "c001": {
+      "textHash": "sha256:a3c48f6d7d898acb609c32264a1d2b87eb24c9ac24d57b8f5b502623a7337de2",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c002": {
+      "textHash": "sha256:029fbe387415f1a53ee77a654ea19f1a07194261f0e36b239df82d0032fda11f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c003": {
+      "textHash": "sha256:73243374f57ce1163c6546f84576750e8944923394df57dd4fea07ee92674122",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c004": {
+      "textHash": "sha256:593320ee19156652a5903a4e59a84c855b8e9f77b4dbe82150092816e6e1c6b1",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c005": {
+      "textHash": "sha256:b16b9a86e0c36494aef44faf64594f8b9ee9c8794dfeaeefe2c62e79d432428c",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c006": {
+      "textHash": "sha256:77125eb5bae86d155c8d6b57155639a3ef4d92a5ff7bab9e7c3ae634dc9fb382",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c007": {
+      "textHash": "sha256:dac7e79a43e82eb3dbfa444f2dd01c52fefc9c79645b98c2f4fa20a269610074",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speakers": [
+        "maya",
+        "daniel"
+      ],
+      "lanes": [
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c008": {
+      "textHash": "sha256:7a77cc9ab90f1139f5cbe1a5d8c431bb0ac34d803043fa459530a4920e07b0a0",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "sound": {
+        "direction": "right"
+      },
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c009": {
+      "textHash": "sha256:824dda92c5ffbad9fb4d875d4465c8febe4a8d715890bbb936fd3b120a42093b",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c010": {
+      "textHash": "sha256:5f9bc929c70d0df31b08017d0ca5db0b88e397efc5124a42838c582914a4bcca",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c011": {
+      "textHash": "sha256:7fd3af98707e4a367c9522016922f3018cd9e054d06e952c51a31f69c29baf04",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "daniel",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c012": {
+      "textHash": "sha256:342486a7ae7705661b73e72f6732f8a82b5a51e31ca412a20b265260b27fd87f",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "amara",
+      "lanes": [
+        "lower_right",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    },
+    "c013": {
+      "textHash": "sha256:07b8a1ad7d33ec35ba4625e518c112718a0f2559a0ad7c58b33680f6a43fe209",
+      "status": "verified",
+      "provenance": "human_editor; cue: author, checked against footage",
+      "speaker": "maya",
+      "lanes": [
+        "lower_left",
+        "bottom_center"
+      ],
+      "verifiedBy": "human"
+    }
+  }
+}

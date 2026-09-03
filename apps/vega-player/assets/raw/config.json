@@ -1,0 +1,4 @@
+{
+  "devHost": "http://192.168.1.84:8081",
+  "note": "LAN server for HLS and caption files; edit and repackage, no rebuild needed"
+}
