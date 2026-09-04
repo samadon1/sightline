@@ -44,7 +44,13 @@ npm test                       # 51 core, 17 runtime, 5 app tests; no Fire TV ne
 npm run validate -- assets/the-envelope/captions.en.vtt assets/the-envelope/companion.en.json
 ```
 
-On the Vega Virtual Device (Vega SDK 0.24, React Native for Vega 0.83):
+To try it without building, install the package from the [v0.1.0 release](https://github.com/samadon1/sightline/releases/tag/v0.1.0) on the Vega Virtual Device:
+
+```bash
+vega run-app vega-player_aarch64.vpkg com.sightlinewip.player.main -d VirtualDevice
+```
+
+To build it yourself (Vega SDK 0.24, React Native for Vega 0.83):
 
 ```bash
 npm run bundle-assets

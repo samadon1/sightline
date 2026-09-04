@@ -48,6 +48,7 @@ React Native for Vega, Vega SDK, W3C media APIs, WebVTT, TypeScript, Shaka Playe
 
 ## Links
 - Repository: https://github.com/samadon1/sightline
+- Try it: https://github.com/samadon1/sightline/releases/tag/v0.1.0 (installable Vega packages)
 - Video: https://youtu.be/tEMhDXov5MM (2 min 53 s, English, captions uploaded)
 - Product feedback: docs/product-feedback.md; Friction log: docs/friction-log.md
 
