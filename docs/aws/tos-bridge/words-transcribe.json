@@ -1,0 +1,493 @@
+{
+  "c001": [
+    {
+      "i": 0,
+      "startMs": 5139,
+      "endMs": 5349,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 5349,
+      "endMs": 5550,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 5550,
+      "endMs": 5909,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c002": [
+    {
+      "i": 0,
+      "startMs": 6580,
+      "endMs": 6670,
+      "score": 0.998,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 6869,
+      "endMs": 7269,
+      "score": 0.997,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 7380,
+      "endMs": 7510,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 7510,
+      "endMs": 7710,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 4,
+      "startMs": 7710,
+      "endMs": 7869,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 5,
+      "startMs": 7869,
+      "endMs": 8149,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 6,
+      "startMs": 8149,
+      "endMs": 8390,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 7,
+      "startMs": 8390,
+      "endMs": 9000,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c003": [
+    {
+      "i": 0,
+      "startMs": 9310,
+      "endMs": 9470,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 9470,
+      "endMs": 9590,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 9590,
+      "endMs": 9710,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 9710,
+      "endMs": 10229,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 4,
+      "startMs": 10239,
+      "endMs": 10350,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 5,
+      "startMs": 10350,
+      "endMs": 10470,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 6,
+      "startMs": 10470,
+      "endMs": 10659,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 7,
+      "startMs": 10659,
+      "endMs": 10750,
+      "score": 0.54,
+      "status": "proposed"
+    },
+    {
+      "i": 8,
+      "startMs": 10750,
+      "endMs": 10869,
+      "score": 0.667,
+      "status": "proposed"
+    },
+    {
+      "i": 9,
+      "startMs": 10869,
+      "endMs": 11149,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 10,
+      "startMs": 11149,
+      "endMs": 11470,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 11,
+      "startMs": 11470,
+      "endMs": 11750,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 12,
+      "startMs": 11750,
+      "endMs": 12210,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c004": [
+    {
+      "i": 0,
+      "startMs": 12800,
+      "endMs": 12869,
+      "score": 0.996,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 12869,
+      "endMs": 13069,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 13069,
+      "endMs": 13270,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 13270,
+      "endMs": 13470,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 4,
+      "startMs": 13470,
+      "endMs": 13859,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 5,
+      "startMs": 13859,
+      "endMs": 14029,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 6,
+      "startMs": 14029,
+      "endMs": 14409,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 7,
+      "startMs": 14600,
+      "endMs": 14979,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 8,
+      "startMs": 14979,
+      "endMs": 15220,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 9,
+      "startMs": 15220,
+      "endMs": 15380,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 10,
+      "startMs": 15380,
+      "endMs": 15510,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 11,
+      "startMs": 15510,
+      "endMs": 16110,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 12,
+      "startMs": 16110,
+      "endMs": 16389,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c005": [
+    {
+      "i": 0,
+      "startMs": 16709,
+      "endMs": 16909,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 16909,
+      "endMs": 17059,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 17059,
+      "endMs": 17309,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 17309,
+      "endMs": 17549,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 5,
+      "startMs": 17629,
+      "endMs": 18129,
+      "score": 0.991,
+      "status": "proposed"
+    }
+  ],
+  "c006": [
+    {
+      "i": 1,
+      "startMs": 20000,
+      "endMs": 20000,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c007": [
+    {
+      "i": 0,
+      "startMs": 20620,
+      "endMs": 20850,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 20850,
+      "endMs": 21170,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 21170,
+      "endMs": 21370,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 5,
+      "startMs": 21799,
+      "endMs": 22170,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 6,
+      "startMs": 22170,
+      "endMs": 22250,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 7,
+      "startMs": 22250,
+      "endMs": 22440,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 8,
+      "startMs": 22440,
+      "endMs": 22530,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 9,
+      "startMs": 22530,
+      "endMs": 22889,
+      "score": 1.0,
+      "status": "proposed"
+    }
+  ],
+  "c008": [
+    {
+      "i": 0,
+      "startMs": 23000,
+      "endMs": 23010,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 23010,
+      "endMs": 23129,
+      "score": 0.996,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 23129,
+      "endMs": 23450,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 23450,
+      "endMs": 24049,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 4,
+      "startMs": 24049,
+      "endMs": 24120,
+      "score": 0.985,
+      "status": "proposed"
+    }
+  ],
+  "c009": [
+    {
+      "i": 2,
+      "startMs": 24629,
+      "endMs": 24659,
+      "score": 0.054,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 24659,
+      "endMs": 24670,
+      "score": 0.956,
+      "status": "proposed"
+    }
+  ],
+  "c010": [
+    {
+      "i": 0,
+      "startMs": 32040,
+      "endMs": 32610,
+      "score": 0.995,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 32610,
+      "endMs": 33119,
+      "score": 0.993,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 33119,
+      "endMs": 33900,
+      "score": 0.993,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 34159,
+      "endMs": 34840,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 4,
+      "startMs": 35159,
+      "endMs": 35500,
+      "score": 0.994,
+      "status": "proposed"
+    }
+  ],
+  "c011": [
+    {
+      "i": 0,
+      "startMs": 43000,
+      "endMs": 43099,
+      "score": 0.999,
+      "status": "proposed"
+    },
+    {
+      "i": 1,
+      "startMs": 43099,
+      "endMs": 43459,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 2,
+      "startMs": 43459,
+      "endMs": 43819,
+      "score": 1.0,
+      "status": "proposed"
+    },
+    {
+      "i": 3,
+      "startMs": 43819,
+      "endMs": 44380,
+      "score": 0.995,
+      "status": "proposed"
+    }
+  ]
+}

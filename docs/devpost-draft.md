@@ -11,7 +11,7 @@ Captions that let you choose how much context you get, and never put the approve
 ## Track and mini-challenges
 - Primary: Fire TV (Vega OS)
 - Mini-challenge: Open Source (packages/core, the companion metadata profile, and the Vega reference app)
-- AWS Builder: [not entered unless the September 18 checkpoint approves the Transcribe authoring command]
+- AWS Builder mini challenge: yes. S3 and CloudFront serve the caption track, companion file and HLS renditions (publisher delivery path, checked on the device); Amazon Transcribe is a second, independent measurement of word timing and speaker turns in the authoring pipeline, written as proposals a person confirms. Write-up, scripts and numbers in docs/aws.md.
 
 ## Inspiration
 In 2025, Deaf and hard-of-hearing viewers told researchers that caption preferences differ so much that no single caption design suits everyone. The study's own title quotes one of them: "Choices? That's the dream." Speaker labels, placed captions and expressive type all exist already, but there was no TV runtime that lets the viewer pick the level, respects the TV's own caption settings, and never risks the approved words. So we built one.
@@ -44,7 +44,7 @@ In 2025, Deaf and hard-of-hearing viewers told researchers that caption preferen
 - Testing on a physical device, sessions with Deaf and hard-of-hearing viewers if we can recruit them, and the publisher SDK path.
 
 ## Built with
-React Native for Vega, Vega SDK, W3C media APIs, WebVTT, TypeScript, Shaka Player (Vega patches from AmazonAppDev/vega-video-sample), ffmpeg.
+React Native for Vega, Vega SDK, W3C media APIs, WebVTT, TypeScript, Shaka Player (Vega patches from AmazonAppDev/vega-video-sample), ffmpeg, Amazon S3, Amazon CloudFront, Amazon Transcribe, WhisperX, librosa.
 
 ## Links
 - Repository: https://github.com/samadon1/sightline

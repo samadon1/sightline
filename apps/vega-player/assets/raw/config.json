@@ -1,4 +1,4 @@
 {
-  "devHost": "http://192.168.1.84:8081",
-  "note": "LAN server for HLS and caption files; edit and repackage, no rebuild needed"
+  "devHost": "https://dezgz1h32vkd1.cloudfront.net",
+  "note": "Publisher delivery: caption track, companion file and HLS from Amazon CloudFront (tools/aws/publish-media.sh). Edit and repackage, no rebuild needed. A LAN server works the same way: http://host:8081"
 }

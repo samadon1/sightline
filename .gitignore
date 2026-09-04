@@ -29,3 +29,6 @@ __pycache__/
 
 # local-only documents (specs and reviews kept out of the public tree)
 private/
+
+# authoring work folders (audio extracts, raw tool output); results worth keeping are copied into docs/
+assets/*/.author/

@@ -44,7 +44,7 @@ async function chooseHlsUri(scene: SceneMedia): Promise<string> {
   const timer = setTimeout(() => ctl?.abort(), 1500);
   try {
     const res = await fetch(scene.hlsUri, ctl ? { signal: ctl.signal, method: "GET" } : { method: "GET" });
-    if (res.ok) { devLog("[player] source=lan"); return scene.hlsUri; }
+    if (res.ok) { devLog(`[player] source=server host=${scene.hlsUri.split("/").slice(0, 3).join("/")}`); return scene.hlsUri; }
   } catch { /* unreachable */ } finally { clearTimeout(timer); }
   devLog("[player] source=packaged (LAN server unreachable)");
   return scene.localHlsUri;

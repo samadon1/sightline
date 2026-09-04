@@ -1,0 +1,8 @@
+{
+ "words": 45,
+ "medianMs": 58,
+ "p90Ms": 198,
+ "within50ms": 0.467,
+ "within100ms": 0.733,
+ "against": "companion.en.json word timings (WhisperX, machine-verified)"
+}

@@ -1,0 +1,109 @@
+{
+  "speakersFound": 3,
+  "cues": {
+    "c001": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Celia",
+      "proposedSpeaker": "thom"
+    },
+    "c002": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c003": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c004": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Celia",
+      "proposedSpeaker": "thom"
+    },
+    "c005": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c006": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c007": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c008": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Thom",
+      "proposedSpeaker": "thom"
+    },
+    "c009": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Celia",
+      "proposedSpeaker": "thom"
+    },
+    "c010": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Technician",
+      "proposedSpeaker": "technician"
+    },
+    "c011": {
+      "cluster": "spk_2",
+      "confidence": 1.0,
+      "voiceSpan": "Crew",
+      "proposedSpeaker": "crew"
+    }
+  },
+  "mapping": {
+    "spk_0": "Thom",
+    "spk_1": "Technician",
+    "spk_2": "Crew"
+  },
+  "agreement": {
+    "agree": 8,
+    "of": 11
+  },
+  "segments": [
+    [
+      5139,
+      18129,
+      "spk_0"
+    ],
+    [
+      19569,
+      24670,
+      "spk_0"
+    ],
+    [
+      26309,
+      27129,
+      "spk_0"
+    ],
+    [
+      32040,
+      35799,
+      "spk_1"
+    ],
+    [
+      42900,
+      44380,
+      "spk_2"
+    ]
+  ],
+  "status": "proposed",
+  "provenance": "amazon-transcribe"
+}

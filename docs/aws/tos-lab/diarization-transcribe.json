@@ -1,0 +1,196 @@
+{
+  "speakersFound": 2,
+  "cues": {
+    "c001": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c002": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c003": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c004": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Barley",
+      "proposedSpeaker": "director"
+    },
+    "c005": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c006": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c007": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c008": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c009": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c010": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c011": {
+      "cluster": "spk_0",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c012": {
+      "cluster": null,
+      "confidence": 0.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": null
+    },
+    "c013": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c014": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c015": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c016": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c017": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c018": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    },
+    "c019": {
+      "cluster": "spk_1",
+      "confidence": 1.0,
+      "voiceSpan": "Director",
+      "proposedSpeaker": "director"
+    }
+  },
+  "mapping": {
+    "spk_0": "Director",
+    "spk_1": "Director"
+  },
+  "agreement": {
+    "agree": 17,
+    "of": 18
+  },
+  "segments": [
+    [
+      1340,
+      4760,
+      "spk_0"
+    ],
+    [
+      7159,
+      10460,
+      "spk_0"
+    ],
+    [
+      11750,
+      17389,
+      "spk_0"
+    ],
+    [
+      22129,
+      22139,
+      "spk_0"
+    ],
+    [
+      23670,
+      23680,
+      "spk_0"
+    ],
+    [
+      32900,
+      36110,
+      "spk_0"
+    ],
+    [
+      40750,
+      41000,
+      "spk_1"
+    ],
+    [
+      42110,
+      44080,
+      "spk_1"
+    ],
+    [
+      45400,
+      46279,
+      "spk_1"
+    ],
+    [
+      47529,
+      50650,
+      "spk_1"
+    ],
+    [
+      51470,
+      52250,
+      "spk_1"
+    ],
+    [
+      53659,
+      54250,
+      "spk_1"
+    ],
+    [
+      55529,
+      58000,
+      "spk_1"
+    ]
+  ],
+  "status": "proposed",
+  "provenance": "amazon-transcribe"
+}
