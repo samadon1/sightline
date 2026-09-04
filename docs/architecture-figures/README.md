@@ -17,5 +17,6 @@ Figures used on the architecture page, in page order. Regenerate with `build-fig
 | fig-sync-measured.png | Method A and B errors per boundary crossing, from sync-rows-*.json (exported by `tools/sync-report.ts` with `SYNC_ROWS=<path>`) |
 | fig3-fallback-ladder.svg | Per-cue checks and their fallbacks |
 | fig4-palette.svg | The six Caption with Intention main colours as shipped |
+| fig5-aws.svg | The AWS integrations: publish to S3 behind CloudFront, the app fetching from the distribution with its packaged fallback, and Amazon Transcribe as a second measurement feeding proposals to review (`build-aws-figure.py`, standalone) |
 
 Film frames: Tears of Steel, Blender Foundation, CC BY 3.0.

@@ -1,5 +1,7 @@
 # Sightline on AWS
 
+![The two AWS integrations: publisher delivery from S3 behind CloudFront, and Amazon Transcribe as a second measurement in the authoring pipeline](architecture-figures/fig5-aws.svg)
+
 Two integrations, both reproducible from the repository and both checked on September 4, 2026. Neither changes what the product is: the app still shows only verified data, and the authoring pipeline still ends with a person confirming proposals.
 
 ## 1. Publisher delivery: S3 and CloudFront

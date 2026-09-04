@@ -74,6 +74,8 @@ The three scenes play from a packaged copy, so the app does not depend on a medi
 
 Two documented integrations, both checked on the device: the caption track, companion file and HLS renditions are served from a private S3 bucket behind CloudFront, and Amazon Transcribe runs as an independent second measurement of word timing and speaker turns in the authoring pipeline, always as proposals a person confirms. The scripts, the device log lines and the comparison numbers are in `docs/aws.md`.
 
+![AWS delivery and Transcribe](docs/architecture-figures/fig5-aws.svg)
+
 ## Built on
 
 The Caption with Intention design system (FCB Chicago and the Chicago Hearing Society), the caption research listed in `docs/prior-art.md`, Amazon's `vega-video-sample` for the player wiring, and two excerpts of *Tears of Steel* (Blender Foundation, CC BY 3.0).
