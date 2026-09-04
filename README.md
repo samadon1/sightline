@@ -2,6 +2,8 @@
 
 Captions for Fire TV that show who is speaking, how loud, and when.
 
+Demo video (3 minutes): https://youtu.be/tEMhDXov5MM
+
 ![Detailed mode on the Vega Virtual Device: each speaker in their own colour, louder words larger, an off-camera line in italics](docs/captures/readme-detailed.png)
 
 Sightline is a caption runtime for Fire TV (Vega OS). It takes an approved WebVTT caption track and a verified companion file, and draws the captions at the richest level the viewer, the TV's caption settings and the verified data allow. Anything unverified falls back, one cue at a time, to ordinary captions. The approved words never change. Built for the Fire TV track of the Build, Ship, Shape Amazon Developer Hackathon 2026.

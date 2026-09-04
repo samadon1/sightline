@@ -47,8 +47,8 @@ In 2025, Deaf and hard-of-hearing viewers told researchers that caption preferen
 React Native for Vega, Vega SDK, W3C media APIs, WebVTT, TypeScript, Shaka Player (Vega patches from AmazonAppDev/vega-video-sample), ffmpeg.
 
 ## Links
-- Repository: [public URL after naming approval]
-- Video: [under three minutes, English, YouTube or Vimeo]
+- Repository: https://github.com/samadon1/sightline
+- Video: https://youtu.be/tEMhDXov5MM (2 min 53 s, English, captions uploaded)
 - Product feedback: docs/product-feedback.md; Friction log: docs/friction-log.md
 
 ## Disclosure
